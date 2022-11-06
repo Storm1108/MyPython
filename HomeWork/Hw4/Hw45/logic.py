@@ -86,25 +86,24 @@ def main_func(path_1, path_2):
     poly_array_2 = poly_2.readlines()
     poly_1.close()
     poly_2.close()
-    resulting_poly_1 = multy_summ(poly_array_1)
-    resulting_poly_2 = multy_summ(poly_array_2)
+    resulting_poly_1 = multy_summ(poly_array_1, 1)
+    resulting_poly_2 = multy_summ(poly_array_2, 2)
     return summ(resulting_poly_1, resulting_poly_2)
 
 
-def multy_summ(poly_array):
+def multy_summ(poly_array,file_num):
     resulting_poly_1 = read(poly_array[0])
     print(f"Индексы 1 приведенного многочлена из 1 строки "
           f"по убыванию степени начиная с наибольшей:  {resulting_poly_1}")
     for line_number_1 in range(1, len(poly_array)):
         poly_current = read(poly_array[line_number_1])
         poly_temp = resulting_poly_1
-        # poly_current.reverse()
-        print(
-            f"Индексы {line_number_1 + 1} приведенного многочлена из 1 строки  по убыванию степени начиная с наибольшей:  {poly_current}")
-        # poly_current.reverse()
+        poly_current.reverse()
+        print( f"Индексы {line_number_1 + 1} приведенного многочлена из {file_num} строки  "
+            f"по убыванию степени начиная с наибольшей:  {poly_current}")
+        poly_current.reverse()
         resulting_poly_1 = summ(poly_temp, poly_current)
-        print(resulting_poly_1)
-    print(f"Индексы результирующего многочлена 1 строки по убыванию степени начиная с наибольшей: {resulting_poly_1}")
+    print(f"Индексы результирующего многочлена {file_num} строки по убыванию степени начиная с наибольшей: {resulting_poly_1}")
     return resulting_poly_1
 
 
