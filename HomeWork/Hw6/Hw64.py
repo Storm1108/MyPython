@@ -8,7 +8,7 @@
 #  'А': {'Б': ['Борис Аркадьев'], 'П': ['Павел Анисимов', 'Петр Алексеев']},
 #  'И': {'И': ['Илья Иванов']},
 #  'В': {'Ю': ['Юнона Ветрякова']}}
-def surname_sorted_array(name, names):
+def surname_dikt_array(name, names):
     array = [elem for elem in names if elem[elem.find(' ') + 1] == name[name.find(' ') + 1]]
     return sorted(array)
 
@@ -21,7 +21,7 @@ def name_sorted_dict(names):
 
 def _main_(names_str):
     names = [elem.strip().strip('"') for elem in names_str.split(",")]
-    dikt_surnames = {name[name.find(' ') + 1]: name_sorted_dict(surname_sorted_array(name, names)) for name in names}
+    dikt_surnames = {name[name.find(' ') + 1]: name_sorted_dict(surname_dikt_array(name, names)) for name in names}
     return dikt_surnames
 
 
