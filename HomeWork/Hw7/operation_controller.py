@@ -8,6 +8,7 @@ from operations.math_integer_division import integer_devision
 
 
 def operation(a, b, operation_id):
+    operation_id = int(operation_id)
     if operation_id == 1:
         return addition(a, b)
     elif operation_id == 2:

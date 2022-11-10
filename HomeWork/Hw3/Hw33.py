@@ -16,12 +16,13 @@ def Num2th(num10th):
         Parts = []
         count = 0
         while (num10th != 1):
-
             Parts.insert(0, num10th % 2)
             print(Parts)
             num10th = num10th // 2
             count += 1
         Parts.insert(0, 1)
-        return ("".join(map(str,Parts)))
+        return ("".join(map(str, Parts)))
+
+
 num10th = 88
 print(f"Число в двоичной системе исчисления: {Num2th(num10th)}")

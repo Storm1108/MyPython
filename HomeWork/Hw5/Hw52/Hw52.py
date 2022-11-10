@@ -51,13 +51,12 @@ def decode(path_in='out_file.txt', path_out='result.txt'):
         number = 0
         for char in string:
             if char.isdigit():
-                number = number*10 + int(char)
+                number = number * 10 + int(char)
             else:
                 decoded[-1] += str(char) * number
                 number = 0
         decoded[-1] += "\n"
         decoded.append('')
-
 
     file.close()
     with open(path_out, 'w') as out:

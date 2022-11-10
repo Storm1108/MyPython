@@ -12,17 +12,22 @@
 # [16, 16, 4]
 
 from random import randint
+
+
 def Create(n):
     list = []
     for i in range(n):
         list.append(randint(-10, 10))
     return list
+
+
 def Main_Logic(list):
     pairs = []
-    for i in range(len(list)//2):
-        pairs.append((list[i], list[-(i+1)]))
-        print(f"{pairs[i]} ----> {list[i] * list[-(i+1)]}")
+    for i in range(len(list) // 2):
+        pairs.append((list[i], list[-(i + 1)]))
+        print(f"{pairs[i]} ----> {list[i] * list[-(i + 1)]}")
     return pairs
+
 
 list = Create(int(input("Введите число элементов массива: ")))
 print(list)

@@ -5,10 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2c585c5-0ef9-4d1c-8abe-ca72fcd369a8" name="Changes" comment="HW6 1-5 and HW 7dev1">
+      <change beforePath="$PROJECT_DIR$/.idea/MyPython.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MyPython.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/Hw1/Hw11.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/Hw1/Hw11.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/Hw1/Hw12.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/Hw1/Hw12.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/Hw1/Hw13.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/Hw1/Hw13.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/Hw1/Hw14.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/Hw1/Hw14.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/Hw1/Hw15.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/Hw1/Hw15.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/Hw2/Hw21.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/Hw2/Hw21.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/Hw2/Hw22.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/Hw2/Hw22.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/Hw2/Hw23.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/Hw2/Hw23.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/Hw2/Hw24.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/Hw2/Hw24.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/Hw2/Hw25.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/Hw2/Hw25.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/Hw3/Hw31.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/Hw3/Hw31.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/Hw3/Hw32.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/Hw3/Hw32.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/Hw3/Hw33.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/Hw3/Hw33.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/Hw4/Hw42.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/Hw4/Hw42.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/Hw4/Hw43.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/Hw4/Hw43.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/Hw4/Hw45/logic.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/Hw4/Hw45/logic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/Hw5/Hw52/Hw52.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/Hw5/Hw52/Hw52.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/Hw6/Hw62.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/Hw6/Hw62.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HomeWork/Hw7/UI.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/Hw7/UI.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/Hw7/complex.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/Hw7/complex.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HomeWork/Hw7/exception.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/Hw7/exception.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HomeWork/Hw7/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/Hw7/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeWork/Hw7/operations/operation_controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/Hw7/operation_controller.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/Hw7/operation_controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/Hw7/operation_controller.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/Hw7/operations/math_div.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/Hw7/operations/math_div.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +69,7 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -65,9 +88,9 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="/usr/local/bin/python3.9" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HomeWork/Hw7" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
@@ -80,6 +103,33 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="exception" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MyPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HomeWork/Hw7" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HomeWork/Hw7/exception.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.exception" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -90,6 +140,7 @@
       <option name="presentableId" value="Default" />
       <updated>1667995872347</updated>
       <workItem from="1667995873597" duration="13286000" />
+      <workItem from="1636466117245" duration="3215000" />
     </task>
     <task id="LOCAL-00001" summary="HW6 1-5 and HW 7dev1">
       <created>1668039421438</created>
@@ -157,7 +208,8 @@
     <SUITE FILE_PATH="coverage/MyPython$Hw23.coverage" NAME="Hw23 Coverage Results" MODIFIED="1665855190110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw2" />
     <SUITE FILE_PATH="coverage/MyPython$task_2_1.coverage" NAME="task_2_1 Coverage Results" MODIFIED="1665575048904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads/HW_1_Tasks_2/Sem_2" />
     <SUITE FILE_PATH="coverage/PyCharm$_logging_.coverage" NAME="_logging_ Coverage Results" MODIFIED="1668035066601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw7" />
-    <SUITE FILE_PATH="coverage/MyPython$UI.coverage" NAME="UI Coverage Results" MODIFIED="1668041077655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw7" />
+    <SUITE FILE_PATH="coverage/MyPython$exception.coverage" NAME="exception Coverage Results" MODIFIED="1636466179478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw7" />
+    <SUITE FILE_PATH="coverage/MyPython$UI.coverage" NAME="UI Coverage Results" MODIFIED="1668093929286" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw7" />
     <SUITE FILE_PATH="coverage/MyPython$Hw35.coverage" NAME="Hw35 Coverage Results" MODIFIED="1666953247676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw3" />
     <SUITE FILE_PATH="coverage/MyPython$Hw64.coverage" NAME="Hw64 Coverage Results" MODIFIED="1667856977664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw6" />
     <SUITE FILE_PATH="coverage/MyPython$Hw32.coverage" NAME="Hw32 Coverage Results" MODIFIED="1666906197140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw3" />

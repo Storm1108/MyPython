@@ -91,7 +91,7 @@ def main_func(path_1, path_2):
     return summ(resulting_poly_1, resulting_poly_2)
 
 
-def multy_summ(poly_array,file_num):
+def multy_summ(poly_array, file_num):
     resulting_poly_1 = read(poly_array[0])
     print(f"Индексы 1 приведенного многочлена из 1 строки "
           f"по убыванию степени начиная с наибольшей:  {resulting_poly_1}")
@@ -99,20 +99,22 @@ def multy_summ(poly_array,file_num):
         poly_current = read(poly_array[line_number_1])
         poly_temp = resulting_poly_1
         poly_current.reverse()
-        print( f"Индексы {line_number_1 + 1} приведенного многочлена из {file_num} строки  "
-            f"по убыванию степени начиная с наибольшей:  {poly_current}")
+        print(f"Индексы {line_number_1 + 1} приведенного многочлена из {file_num} строки  "
+              f"по убыванию степени начиная с наибольшей:  {poly_current}")
         poly_current.reverse()
         resulting_poly_1 = summ(poly_temp, poly_current)
-    print(f"Индексы результирующего многочлена {file_num} строки по убыванию степени начиная с наибольшей: {resulting_poly_1}")
+    print(
+        f"Индексы результирующего многочлена {file_num} строки по убыванию степени начиная с наибольшей: {resulting_poly_1}")
     return resulting_poly_1
 
 
 def main(path_1='files/poly.txt', path_2='files/poly_2.txt'):
-    result = main_func(path_1,path_2)
+    result = main_func(path_1, path_2)
     print(f"\n -------------------------------------------------------------------------------------------\n"
           f"Индексы результирующего многочлена строки по убыванию степени начиная с наибольшей: {result}")
     with (open('Result.txt', 'a')) as final_file:
         write(result, final_file)
+
 
 def UI_launch():
     try:
@@ -127,7 +129,7 @@ def UI_launch():
             main()
         elif check == 2:
             main(str(input("Введите путь 1 файла с многочленами: ")),
-                      str(input("Введите путь 2 файла с многочленами: ")))
+                 str(input("Введите путь 2 файла с многочленами: ")))
         print("Готово")
     except ValueError:
         print("Error: Ошибка в записи многочлена")

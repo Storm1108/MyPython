@@ -36,7 +36,7 @@ def Simple_Multiplicators(n):
             n = n // simples[i]
             i -= 1
         i += 1
-    if len(multiplicators)==1:
+    if len(multiplicators) == 1:
         multiplicators.append(n)
     return multiplicators
 

@@ -2,7 +2,7 @@
 numberStr = input("Enter number: ")
 length = len(numberStr)
 number = float(numberStr)
-number *= 10**(length-1)
+number *= 10 ** (length - 1)
 summ = 0
 for i in range(length):
     summ = summ + int(number % 10)

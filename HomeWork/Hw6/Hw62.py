@@ -13,4 +13,5 @@
 def main(n):
     return [elem for elem in range(20, n + 1) if elem % 20 == 0 or elem % 21 == 0]
 
+
 print(main(int(input("Введите число N: "))))

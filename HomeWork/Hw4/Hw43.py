@@ -32,6 +32,7 @@ def Exclude(array):
             temp.append(i)
     return [k for k in array if k not in temp]
 
+
 array = Create(10)
 print(array)
 print(Exclude(array))

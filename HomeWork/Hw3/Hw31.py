@@ -12,16 +12,21 @@
 # out
 # 8
 from random import randint
+
+
 def Create(n):
     list = []
     for i in range(n):
         list.append(randint(-10, 10))
     return list
+
+
 def Sum_NonDouble(list):
     sum = 0
     for i in range(0, len(list), 2):
         sum += list[i]
     return sum
+
 
 list = Create(int(input("Введите число элементов массива: ")))
 print(list)

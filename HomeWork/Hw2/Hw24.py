@@ -5,8 +5,7 @@
 a = int(input("Position one: "))
 b = int(input("Position two: "))
 n = int(input("N: "))
-numbers_list = list(range(-n, n+1))
+numbers_list = list(range(-n, n + 1))
 print(numbers_list)
 
 print(numbers_list[a - 1] * numbers_list[b - 1])
-
