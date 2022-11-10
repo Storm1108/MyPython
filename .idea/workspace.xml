@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2c585c5-0ef9-4d1c-8abe-ca72fcd369a8" name="Changes" comment="HW6 1-5 and HW 7dev1">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HomeWork/Hw7/UI.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/Hw7/UI.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HomeWork/Hw7/exception.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/Hw7/exception.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HomeWork/Hw7/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/Hw7/main.py" afterDir="false" />
@@ -37,19 +36,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Proggerstvo/PyCharm/HomeWork/Hw7",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "vcs.Git"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Proggerstvo/PyCharm/HomeWork/Hw7&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Proggerstvo\PyCharm\HomeWork\Hw7" />
@@ -57,6 +56,30 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Proggerstvo\PyCharm\HomeWork\Hw7\operations" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="UI" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="MyPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/local/bin/python3.9" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HomeWork/Hw7" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HomeWork/Hw7/UI.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -131,10 +154,37 @@
     <option name="LAST_COMMIT_MESSAGE" value="HW6 1-5 and HW 7dev1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/PyCharm$Hw65.coverage" NAME="Hw65 Coverage Results" MODIFIED="1668006327990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw6" />
-    <SUITE FILE_PATH="coverage/PyCharm$UI.coverage" NAME="UI Coverage Results" MODIFIED="1668040403865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw7" />
+    <SUITE FILE_PATH="coverage/MyPython$Hw23.coverage" NAME="Hw23 Coverage Results" MODIFIED="1665855190110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw2" />
+    <SUITE FILE_PATH="coverage/MyPython$task_2_1.coverage" NAME="task_2_1 Coverage Results" MODIFIED="1665575048904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads/HW_1_Tasks_2/Sem_2" />
     <SUITE FILE_PATH="coverage/PyCharm$_logging_.coverage" NAME="_logging_ Coverage Results" MODIFIED="1668035066601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw7" />
-    <SUITE FILE_PATH="coverage/PyCharm$operation_controller.coverage" NAME="operation_controller Coverage Results" MODIFIED="1668040316116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw7" />
+    <SUITE FILE_PATH="coverage/MyPython$UI.coverage" NAME="UI Coverage Results" MODIFIED="1668041077655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw7" />
+    <SUITE FILE_PATH="coverage/MyPython$Hw35.coverage" NAME="Hw35 Coverage Results" MODIFIED="1666953247676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw3" />
+    <SUITE FILE_PATH="coverage/MyPython$Hw64.coverage" NAME="Hw64 Coverage Results" MODIFIED="1667856977664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw6" />
+    <SUITE FILE_PATH="coverage/MyPython$Hw32.coverage" NAME="Hw32 Coverage Results" MODIFIED="1666906197140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw3" />
+    <SUITE FILE_PATH="coverage/MyPython$Hw41.coverage" NAME="Hw41 Coverage Results" MODIFIED="1667243996371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw4" />
+    <SUITE FILE_PATH="coverage/MyPython$controller_UI.coverage" NAME="controller&amp;UI Coverage Results" MODIFIED="1667396303005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw4/Hw45" />
+    <SUITE FILE_PATH="coverage/MyPython$Hw63.coverage" NAME="Hw63 Coverage Results" MODIFIED="1667855298185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw6" />
+    <SUITE FILE_PATH="coverage/MyPython$Hw34.coverage" NAME="Hw34 Coverage Results" MODIFIED="1666906554901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw3" />
+    <SUITE FILE_PATH="coverage/MyPython$Hw31.coverage" NAME="Hw31 Coverage Results" MODIFIED="1666871193058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw3" />
+    <SUITE FILE_PATH="coverage/MyPython$Hw25.coverage" NAME="Hw25 Coverage Results" MODIFIED="1667853006408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw2" />
+    <SUITE FILE_PATH="coverage/MyPython$Hw43.coverage" NAME="Hw43 Coverage Results" MODIFIED="1667322069247" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw4" />
+    <SUITE FILE_PATH="coverage/MyPython$Hw61.coverage" NAME="Hw61 Coverage Results" MODIFIED="1667853210193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw6" />
+    <SUITE FILE_PATH="coverage/MyPython$Hw11.coverage" NAME="Hw11 Coverage Results" MODIFIED="1665428017542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MyPython$Hw52.coverage" NAME="Hw52 Coverage Results" MODIFIED="1667570823511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw5/Hw52" />
+    <SUITE FILE_PATH="coverage/MyPython$Hw62.coverage" NAME="Hw62 Coverage Results" MODIFIED="1667853371038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw6" />
+    <SUITE FILE_PATH="coverage/MyPython$Hw42.coverage" NAME="Hw42 Coverage Results" MODIFIED="1667255266645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw4" />
+    <SUITE FILE_PATH="coverage/PyCharm$Hw65.coverage" NAME="Hw65 Coverage Results" MODIFIED="1668006327990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw6" />
     <SUITE FILE_PATH="coverage/PyCharm$main.coverage" NAME="main Coverage Results" MODIFIED="1668040321375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw7" />
+    <SUITE FILE_PATH="coverage/MyPython$Hw45.coverage" NAME="Hw45 Coverage Results" MODIFIED="1667391440688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw4/Hw45" />
+    <SUITE FILE_PATH="coverage/PyCharm$UI.coverage" NAME="UI Coverage Results" MODIFIED="1668040403865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw7" />
+    <SUITE FILE_PATH="coverage/MyPython$Hw22.coverage" NAME="Hw22 Coverage Results" MODIFIED="1665855029126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw2" />
+    <SUITE FILE_PATH="coverage/PyCharm$operation_controller.coverage" NAME="operation_controller Coverage Results" MODIFIED="1668040316116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw7" />
+    <SUITE FILE_PATH="coverage/MyPython$Hw44.coverage" NAME="Hw44 Coverage Results" MODIFIED="1667396738322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw4/Hw44" />
+    <SUITE FILE_PATH="coverage/MyPython$Hw21.coverage" NAME="Hw21 Coverage Results" MODIFIED="1665854814228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw2" />
+    <SUITE FILE_PATH="coverage/MyPython$Hw51.coverage" NAME="Hw51 Coverage Results" MODIFIED="1667398307156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw5" />
+    <SUITE FILE_PATH="coverage/MyPython$logic.coverage" NAME="logic Coverage Results" MODIFIED="1667576433819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw4/Hw45" />
+    <SUITE FILE_PATH="coverage/MyPython$Hw53.coverage" NAME="Hw53 Coverage Results" MODIFIED="1667589745038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw5/Hw53" />
+    <SUITE FILE_PATH="coverage/MyPython$Hw33.coverage" NAME="Hw33 Coverage Results" MODIFIED="1635341838590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw3" />
+    <SUITE FILE_PATH="coverage/MyPython$Hw24.coverage" NAME="Hw24 Coverage Results" MODIFIED="1665855742873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw2" />
   </component>
 </project>
