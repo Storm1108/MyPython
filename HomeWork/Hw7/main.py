@@ -1,4 +1,4 @@
-from exception import _main_exception as exc
+from exception import main_exception as exc
 from UI import UI_launch
 
 try:UI_launch()

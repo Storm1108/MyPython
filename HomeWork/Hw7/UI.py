@@ -1,6 +1,14 @@
-import operations.operation_controller
-from operations.operation_controller import operation
+from exception import float_ex
+from operation_controller import operation
 
 
 def UI_launch():
-    operations.operation_controller.operation(input(), input(), 1)
+    a, b, n = 0, 0, 0
+    while float_ex(a, b, n):
+        a = input('1')
+        b = input('2')
+        n = input('op')
+        print(operation(a, b, n))
+
+
+UI_launch()

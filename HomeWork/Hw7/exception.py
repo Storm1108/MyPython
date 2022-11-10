@@ -1,4 +1,4 @@
-def _complex_ex_(a, b, operation_id=0):
+def complex_ex(a, b, operation_id=0):
     if type(a) == complex and type(b) == complex and (0 <= operation_id <= 5) and type(operation_id) == int:
         return True
     elif type(a) != complex or type(b) != complex:
@@ -15,10 +15,10 @@ def _complex_ex_(a, b, operation_id=0):
         return False
 
 
-def _float_ex_(a, b, operation_id=0):
-    if str(a).isdigit() and str(b).isdigit() and (0 <= operation_id <= 7) and type(operation_id) == int:
+def float_ex(a, b, operation_id=0):
+    if str(a).isdigit() and str(b).isdigit() and type(operation_id) == int and (0 <= operation_id <= 7):
         return True
-    elif type(a) != complex or type(b) != complex:
+    elif not (str(a).isdigit() and str(b).isdigit()):
         print("Ошибка в действии с рациональным числом: входные данные не рациональные")
         return False
     elif (not type(operation_id) == int) or (0 <= operation_id <= 7):
@@ -29,14 +29,14 @@ def _float_ex_(a, b, operation_id=0):
         return False
 
 
-def _UI_ex_(char, limit):
+def UI_ex(char, limit):
     if type(char) == int and (1 <= char <= limit):
         return True
     else:
         return False
 
 
-def _main_exception(function):
+def main_exception(function):
     try:
         function()
     except Exception:
