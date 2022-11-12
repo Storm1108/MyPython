@@ -106,5 +106,4 @@ def UI_launch():
 
 
 operation_dikt = {1: ' + ', 2: ' - ', 3: ' * ', 4: ' / ', 5: ' ^ ', 6: ' // ', 7: ' % '}
-UI_launch()
-# UI_launch()
+

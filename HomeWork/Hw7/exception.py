@@ -37,7 +37,6 @@ def complex_enter(a1, a2):
 def float_ex(a, b, operation_id=0):
     try:
         if type(a) == float and type(b) == float and str(operation_id).isdigit() and (1 <= float(operation_id) <= 7):
-            print('Done')
             operation_id = int(operation_id)
             return True
         elif not (type(a) == float and type(b) == float):
@@ -94,6 +93,7 @@ def UI_ex(char, limit):
 
 def main_exception(function):
     try:
-        function()
+        function
+
     except Exception:
         print(f"Непредвиденная ошибка проекта: {Exception}")
