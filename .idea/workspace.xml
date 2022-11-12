@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2c585c5-0ef9-4d1c-8abe-ca72fcd369a8" name="Changes" comment="HW6 1-5 and HW 7dev3">
-      <change afterPath="$PROJECT_DIR$/HomeWork/Hw72/Hw72.py" afterDir="false" />
+    <list default="true" id="f2c585c5-0ef9-4d1c-8abe-ca72fcd369a8" name="Changes" comment="HW 7dev3 and HW 72">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeWork/Hw7/UI.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/Hw7/UI.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeWork/Hw7/exception.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/Hw7/exception.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeWork/Hw7/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/Hw7/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/Hw72/Hw72.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/Hw72/Hw72.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +115,7 @@
       <option name="presentableId" value="Default" />
       <updated>1667995872347</updated>
       <workItem from="1667995873597" duration="13286000" />
-      <workItem from="1636466117245" duration="9504000" />
+      <workItem from="1636466117245" duration="10195000" />
     </task>
     <task id="LOCAL-00001" summary="HW6 1-5 and HW 7dev1">
       <created>1668039421438</created>
@@ -141,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668100798544</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="HW 7dev3 and HW 72">
+      <created>1668258766152</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1668258766152</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,7 +200,8 @@
     <MESSAGE value="HW6 1-5 and HW 7dev1" />
     <MESSAGE value="HW6 1-5 and HW 7dev2" />
     <MESSAGE value="HW6 1-5 and HW 7dev3" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW6 1-5 and HW 7dev3" />
+    <MESSAGE value="HW 7dev3 and HW 72" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW 7dev3 and HW 72" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MyPython$Hw23.coverage" NAME="Hw23 Coverage Results" MODIFIED="1665855190110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw2" />

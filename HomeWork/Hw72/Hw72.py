@@ -11,4 +11,6 @@ def _import():
     with open('file.csv', 'a') as data:
         data.write(input("Введите данные в формате: Фамилия;Имя;Телефон;Описание") + '\n')
 
+
+_import()
 _export()
