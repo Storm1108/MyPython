@@ -60,4 +60,5 @@ input_teachers = "INSERT OR IGNORE INTO teachers (First_name, Family_name,Middle
                  "Passport_num, Birth_date, Date_of_employment, Additional_job) " \
                  " VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?);"
 input_classes = "INSERT OR IGNORE INTO classes (Educational_year, Class_Letter) VALUES(?, ?);"
+database_init()
 data_input(enter(int_define, 'Номер таблицы: ', True, 1, 4))
