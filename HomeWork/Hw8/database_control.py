@@ -61,17 +61,28 @@ def id_get(table_name, id_name):
         return int(0)
 
 
-#
-# database_init()
+def data_load(input_message, data):
+    database_init()
+    cursor.execute(input_message, data)
+    connection.commit()
+
+
+def multi_data_load(input_message, data):
+    database_init()
+    cursor.executemany(input_message, data)
+    connection.commit()
+
+
+database_init()
 # exit()
-# input_lessons = "INSERT OR IGNORE INTO lessons (Subject, Class_ID, Teacher_ID," \
-#                 " Lesson_start, Lesson_end, Lesson_notes) VALUES(?, ?, ?, ?, ?, ?);"
-# input_scholars = "INSERT OR IGNORE INTO scholars (First_name, Family_name, Middle_name, Sex, Class_ID, Birth_date," \
-#                  " Medial_grades, Disciplanional_marks) VALUES(?, ?, ?, ?, ?, ?, ?, ?);"
-# input_teachers = "INSERT OR IGNORE INTO teachers (First_name, Family_name,Middle_name, Sex, Subject,Passport_ser," \
-#                  "Passport_num, Birth_date, Date_of_employment, Additional_job) " \
-#                  " VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?);"
-# input_classes = "INSERT OR IGNORE INTO classes (Educational_year, Class_Letter) VALUES(?, ?);"
+input_lessons = "INSERT OR IGNORE INTO lessons (Subject, Class_ID, Teacher_ID," \
+                " Lesson_start, Lesson_end, Lesson_notes) VALUES(?, ?, ?, ?, ?, ?);"
+input_scholars = "INSERT OR IGNORE INTO scholars (First_name, Family_name, Middle_name, Sex, Class_ID, Birth_date," \
+                 " Medial_grades, Disciplanional_marks) VALUES(?, ?, ?, ?, ?, ?, ?, ?);"
+input_teachers = "INSERT OR IGNORE INTO teachers (First_name, Family_name,Middle_name, Sex, Subject,Passport_ser," \
+                 "Passport_num, Birth_date, Date_of_employment, Additional_job) " \
+                 " VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?);"
+input_classes = "INSERT OR IGNORE INTO classes (Educational_year, Class_Letter) VALUES(?, ?);"
 # teacher = [('Alex', 'Smith', 'Evgenivich', 'M', '4018', '816756', '2003-06-19', 'Русский язык', '2014-07-16', '-')]
 # cursor.executemany(input_teachers, teacher)
 # print(id_get('teachers', 'Teacher_ID'))
