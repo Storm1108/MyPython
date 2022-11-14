@@ -58,29 +58,33 @@ with open('FIO.txt', 'r') as data:
 array = list(map(lambda a: tuple(a.strip('\n').split()), array))
 surnames, names, fathnames = zip(*array)
 
-sexes = [sample(['М', 'Ж'], 1) for i in range(400)]
+
+sexes = [''.join(sample(('М', 'Ж'), 1)) for i in range(400)]
 medials = [round(uniform(2, 5), 2) for i in range(400)]
 class_ids = [randint(1, 22) for i in range(100)]
 
 teacher_ids = [randint(1, 20) for i in range(20)]
-subjects = [sample(['Математика', 'Русский язык', 'Физика', 'География', 'Информатика'], 1) for i in range(100)]
+subjects = [''.join(sample(['Математика', 'Русский язык', 'Физика', 'География', 'Информатика'], 1)) for i in range(100)]
 passport_ser = [randint(1000, 9999) for i in range(20)]
 passport_num = [randint(100000, 999999) for i in range(20)]
 notes = ['-' for i in range(400)]
 dates = data_gen()
 dates_teachers = data_gen_old()
-classes_mas = zip(classes_num, classes_lit)
+fathnames = list(map(lambda a: str(a), fathnames))
+classes_mas = list(zip(classes_num, classes_lit))
 multi_data_load(input_classes, classes_mas)
 
-scholers_mas = zip(names, surnames, fathnames, sexes, class_ids, dates, medials, notes)
+scholers_mas = list(zip(names, surnames, fathnames, sexes, class_ids, dates, medials, notes))
 multi_data_load(input_scholars, scholers_mas)
 
-teachers_mas = zip(names, surnames, fathnames, sexes, subjects, passport_ser, passport_num, dates_teachers, dates, notes)
+teachers_mas = list(zip(names, surnames, fathnames, sexes, subjects, passport_ser, passport_num, dates_teachers, dates, notes))
 multi_data_load(input_teachers, teachers_mas)
 
 
-lessons_mas = zip(subjects, class_ids, teacher_ids, starts, ends, notes)
+lessons_mas = list(zip(subjects, class_ids, teacher_ids, starts, ends, notes))
 multi_data_load(input_lessons, lessons_mas)
+
+print('Done')
 
 input_lessons = "INSERT OR IGNORE INTO lessons (Subject, Class_ID, Teacher_ID," \
                 " Lesson_start, Lesson_end, Lesson_notes) VALUES(?, ?, ?, ?, ?, ?);"
