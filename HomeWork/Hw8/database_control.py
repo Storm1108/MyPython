@@ -55,30 +55,34 @@ def id_get(table_name, id_name):
         id_max = max(id_list, key=lambda elem: elem[0])
         return int(str(id_max).strip('(').strip(')').strip(','))
     except TypeError:
-        print('Непридвиденная  ошибка в id_get')
+        print('Непредвиденная ошибка в id_get')
+    except ValueError:
+        print(f'Пустая таблица {table_name}')
+        return int(0)
 
 
-database_init()
-input_lessons = "INSERT OR IGNORE INTO lessons (Subject, Class_ID, Teacher_ID," \
-                " Lesson_start, Lesson_end, Lesson_notes) VALUES(?, ?, ?, ?, ?, ?);"
-input_scholars = "INSERT OR IGNORE INTO scholars (First_name, Family_name, Middle_name, Sex, Class_ID, Birth_date," \
-                 " Medial_grades, Disciplanional_marks) VALUES(?, ?, ?, ?, ?, ?, ?, ?);"
-input_teachers = "INSERT OR IGNORE INTO teachers (First_name, Family_name,Middle_name, Sex, Subject,Passport_ser," \
-                 "Passport_num, Birth_date, Date_of_employment, Additional_job) " \
-                 " VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?);"
-input_classes = "INSERT OR IGNORE INTO classes (Educational_year, Class_Letter) VALUES(?, ?);"
-teacher = [('Alex', 'Smith', 'Evgenivich', 'M', '4018', '816756', '2003-06-19', 'Русский язык', '2014-07-16', '-')]
-cursor.executemany(input_teachers, teacher)
-print(id_get('teachers', 'Teacher_ID'))
-connection.commit()
-exit()
-
-lesson = [('0001', '-', '0001', '10:40', '11:25', '001', 'Математика')]
-
-cursor.executemany(input_lessons, lesson)
-cursor.execute("SELECT * FROM scholars;")
-one_result = cursor.fetchall()
-print(one_result)
-cursor.execute("SELECT * FROM lessons;")
-one_result = cursor.fetchone()
-print(one_result)
+#
+# database_init()
+# exit()
+# input_lessons = "INSERT OR IGNORE INTO lessons (Subject, Class_ID, Teacher_ID," \
+#                 " Lesson_start, Lesson_end, Lesson_notes) VALUES(?, ?, ?, ?, ?, ?);"
+# input_scholars = "INSERT OR IGNORE INTO scholars (First_name, Family_name, Middle_name, Sex, Class_ID, Birth_date," \
+#                  " Medial_grades, Disciplanional_marks) VALUES(?, ?, ?, ?, ?, ?, ?, ?);"
+# input_teachers = "INSERT OR IGNORE INTO teachers (First_name, Family_name,Middle_name, Sex, Subject,Passport_ser," \
+#                  "Passport_num, Birth_date, Date_of_employment, Additional_job) " \
+#                  " VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?);"
+# input_classes = "INSERT OR IGNORE INTO classes (Educational_year, Class_Letter) VALUES(?, ?);"
+# teacher = [('Alex', 'Smith', 'Evgenivich', 'M', '4018', '816756', '2003-06-19', 'Русский язык', '2014-07-16', '-')]
+# cursor.executemany(input_teachers, teacher)
+# print(id_get('teachers', 'Teacher_ID'))
+# connection.commit()
+#
+# lesson = [('0001', '-', '0001', '10:40', '11:25', '001', 'Математика')]
+#
+# cursor.executemany(input_lessons, lesson)
+# cursor.execute("SELECT * FROM scholars;")
+# one_result = cursor.fetchall()
+# print(one_result)
+# cursor.execute("SELECT * FROM lessons;")
+# one_result = cursor.fetchone()
+# print(one_result)

@@ -1,5 +1,3 @@
-
-
 def int_define(text, is_between, minim, maxim):
     number = input(text)
     try:
@@ -14,8 +12,26 @@ def int_define(text, is_between, minim, maxim):
     except ValueError:
         print("Введите корректное числовое значение")
         return False
+    # except Exception:
+    #     print("Непредвиденная ошибка в int_define")
+
+
+def float_define(text, is_between, minim, maxim):
+    number = input(text)
+    try:
+        number = float(number)
+        if (minim <= number <= maxim) and is_between:
+            return number
+        elif not (minim <= number <= maxim) and is_between:
+            print(f"Введите число от {minim} до {maxim}")
+            return False
+        else:
+            return number
+    except ValueError:
+        print("Введите корректное числовое значение")
+        return False
     except Exception:
-        print("Непредвиденная ошибка в int_define")
+        print("Непредвиденная ошибка в float_define")
 
 
 def enter(function, text, is_between=False, minim=0, maxim=0):
@@ -36,6 +52,7 @@ def date_enter(text):
         day = "0" + str(day)
     return f'{year}-{month}-{day}'
 
+
 def time_enter(text):
     print(text)
     hour = enter(int_define, 'Введите час в 24ч формате: ', True, 0, 24)
@@ -47,11 +64,6 @@ def time_enter(text):
     return f'{hour}:{minute}'
 
 
-
-
-
-
-
-# print(enter(int_define, 'Введите число: '))
-# print(enter(int_define, 'Введите число: ', True, 0, 12))
-print(date_enter('Введите дату устройства на работу'))
+# # print(enter(int_define, 'Введите число: '))
+# # print(enter(int_define, 'Введите число: ', True, 0, 12))
+# print(date_enter('Введите дату устройства на работу'))
