@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2c585c5-0ef9-4d1c-8abe-ca72fcd369a8" name="Changes" comment="hw8dev4.5" />
+    <list default="true" id="f2c585c5-0ef9-4d1c-8abe-ca72fcd369a8" name="Changes" comment="hw8dev4.5">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/Hw8/user_interface.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/Hw8/user_interface.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,7 +64,7 @@
       <recent name="C:\Proggerstvo\PyCharm\HomeWork\Hw7\operations" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.UI">
     <configuration name="UI" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="MyPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -124,7 +127,7 @@
       <workItem from="1636466117245" duration="13357000" />
       <workItem from="1668265471919" duration="53000" />
       <workItem from="1668265534312" duration="7188000" />
-      <workItem from="1668364566733" duration="19110000" />
+      <workItem from="1668364566733" duration="20452000" />
     </task>
     <task id="LOCAL-00001" summary="HW6 1-5 and HW 7dev1">
       <created>1668039421438</created>
@@ -224,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668458379338</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="hw8dev4.5">
+      <created>1668458446180</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1668458446180</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

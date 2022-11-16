@@ -51,6 +51,24 @@ def data_input(table_id):
         data_load(input_classes, (educational_year, class_letter))
 
 
+def data_export(table_id)
+
+
+def main():
+    menu = enter(int_define, '1 - Получить данные из базы данных\n'
+                          '2 - Загрузить данные в базу данных\n'
+                          '3 - Изменить данные в базе данных\n'
+                             '4 - Выйти из программы'
+                          'Введите номер пункта меню: ', True, 1, 4)
+    if menu == 1:
+        menu = enter(int_define, '1 - Таблица уроков\n'
+                          '2 - Таблица учеников\n'
+                          '3 - Таблица учителей\n'
+                             '4 - Таблица классов'
+                          'Введите номер пункта меню: ', True, 1, 4)
+        if
+
+
 
 input_lessons = "INSERT OR IGNORE INTO lessons (Subject, Class_ID, Teacher_ID," \
                 " Lesson_start, Lesson_end, Lesson_notes) VALUES(?, ?, ?, ?, ?, ?);"
