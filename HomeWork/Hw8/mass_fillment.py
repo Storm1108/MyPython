@@ -45,6 +45,15 @@ def time_gen():
     return starts, ends
 
 
+input_lessons = "INSERT OR IGNORE INTO lessons (Subject, Class_ID, Teacher_ID," \
+                " Lesson_start, Lesson_end, Lesson_notes) VALUES(?, ?, ?, ?, ?, ?);"
+input_scholars = "INSERT OR IGNORE INTO scholars (First_name, Family_name, Middle_name, Sex, Class_ID, Birth_date," \
+                 " Medial_grades, Disciplanional_marks) VALUES(?, ?, ?, ?, ?, ?, ?, ?);"
+input_teachers = "INSERT OR IGNORE INTO teachers (First_name, Family_name,Middle_name, Sex, Subject,Passport_ser," \
+                 "Passport_num, Birth_date, Date_of_employment, Additional_job) " \
+                 " VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?);"
+input_classes = "INSERT OR IGNORE INTO classes (Educational_year, Class_Letter) VALUES(?, ?);"
+
 classes_num = []
 classes_lit = []
 for i in range(1, 12):
@@ -87,12 +96,3 @@ lessons_mas = list(zip(subjects, class_ids, teacher_ids, starts, ends, notes))
 multi_data_load(input_lessons, lessons_mas)
 
 print('Done')
-
-input_lessons = "INSERT OR IGNORE INTO lessons (Subject, Class_ID, Teacher_ID," \
-                " Lesson_start, Lesson_end, Lesson_notes) VALUES(?, ?, ?, ?, ?, ?);"
-input_scholars = "INSERT OR IGNORE INTO scholars (First_name, Family_name, Middle_name, Sex, Class_ID, Birth_date," \
-                 " Medial_grades, Disciplanional_marks) VALUES(?, ?, ?, ?, ?, ?, ?, ?);"
-input_teachers = "INSERT OR IGNORE INTO teachers (First_name, Family_name,Middle_name, Sex, Subject,Passport_ser," \
-                 "Passport_num, Birth_date, Date_of_employment, Additional_job) " \
-                 " VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?);"
-input_classes = "INSERT OR IGNORE INTO classes (Educational_year, Class_Letter) VALUES(?, ?);"

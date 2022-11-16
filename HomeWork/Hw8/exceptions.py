@@ -63,7 +63,3 @@ def time_enter(text):
         minute = "0" + str(minute)
     return f'{hour}:{minute}'
 
-
-# # print(enter(int_define, 'Введите число: '))
-# # print(enter(int_define, 'Введите число: ', True, 0, 12))
-# print(date_enter('Введите дату устройства на работу'))

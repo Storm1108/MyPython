@@ -1,5 +1,5 @@
 from database_control import id_get, database_init, data_load, export
-from enter import *
+from exceptions import *
 
 
 def data_input(table_id):
@@ -8,10 +8,12 @@ def data_input(table_id):
         if id_get('classes', 'Class_ID') == 0:
             class_ID = 0
         else:
+            data_export(4)
             class_ID = enter(int_define, 'Номер класса из таблицы классов: ', True, 1, id_get('classes', 'Class_ID'))
         if id_get('teachers', 'Teacher_ID') == 0:
             teacher_ID = 0
         else:
+            data_export(3)
             teacher_ID = enter(int_define, 'Номер учителя из таблицы учителей: ', True, 1,
                                id_get('teachers', 'Teacher_ID'))
         lesson_start = time_enter('Введите время начала урока: ')
@@ -26,6 +28,7 @@ def data_input(table_id):
         if id_get('classes', 'Class_ID') == 0:
             class_ID = 0
         else:
+            data_export(4)
             class_ID = enter(int_define, 'Номер класса из таблицы классов: ', True, 1, id_get('classes', 'Class_ID'))
         birth_date = date_enter("Введите дату рождения ученика:")
         medial_grades = enter(float_define, 'Введите средние оценки учащегося', True, 2, 5)
@@ -84,7 +87,19 @@ def data_export(table_id):
                             'Сред. оценки', 'Отметки о поведении']
         data.sortby = "Фамилия"
         print(data)
+    if table_id == 3:
+        data = export("SELECT Teacher_ID, Family_name,First_name, Middle_name, Sex, Subject,Passport_ser,"
+                      "Passport_num, Birth_date, Date_of_employment, Additional_job FROM teachers")
+        data.field_names = ['ID учителя', 'Фамилия', 'Имя', 'Отчество', 'Пол', 'Предмет обучения', 'Серия паспорта', 'Номер паспорта',
+                            'Дата рождения', 'Дата трудоустройства', 'Доп. должность']
 
+        data.sortby = "Фамилия"
+        print(data)
+    if table_id == 4:
+        data = export("SELECT * FROM classes")
+        data.field_names = ['ID класса', 'Год обучения', 'Буква класса']
+        data.sortby = 'Год обучения'
+        print(data)
 
 def main():
     while True:
@@ -94,15 +109,32 @@ def main():
                                  '4 - Выйти из программы\n'
                                  'Введите номер пункта меню: ', True, 1, 4)
         if menu == 1:
-            menu = enter(int_define, '1 - Таблица уроков\n'
+            menu_temp = enter(int_define, '1 - Таблица уроков\n'
                                      '2 - Таблица учеников\n'
                                      '3 - Таблица учителей\n'
                                      '4 - Таблица классов\n'
                                      '5 - Назад\n'
 
                                      'Введите номер пункта меню: ', True, 1, 5)
-            if menu != 5:
-                data_export(menu)
+            if menu_temp != 5:
+                data_export(menu_temp)
+            menu_temp = 0
+
+        if menu == 2:
+            menu_temp = enter(int_define, '1 - Таблица уроков\n'
+                                     '2 - Таблица учеников\n'
+                                     '3 - Таблица учителей\n'
+                                     '4 - Таблица классов\n'
+                                     '5 - Назад\n'
+
+                                     'Введите номер пункта меню: ', True, 1, 5)
+            if menu_temp !=5:
+                data_input(menu_temp)
+                menu_temp = 0
+        if menu == 3:
+            print('Еще не реализовано')
+        if menu == 4:
+            exit()
 
 
 subj_dikt = {1: 'Математика', 2: 'Русский язык', 3: 'Физика', 4: 'География', 5: 'Информатика'}
@@ -116,5 +148,3 @@ input_teachers = "INSERT OR IGNORE INTO teachers (First_name, Family_name,Middle
                  " VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?);"
 input_classes = "INSERT OR IGNORE INTO classes (Educational_year, Class_Letter) VALUES(?, ?);"
 database_init()
-# data_input(enter(int_define, 'Номер таблицы: ', True, 1, 4))
-main()
