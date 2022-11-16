@@ -1,4 +1,4 @@
-from database_control import id_get, database_init, data_load
+from database_control import id_get, database_init, data_load, export
 from enter import *
 
 
@@ -51,24 +51,61 @@ def data_input(table_id):
         data_load(input_classes, (educational_year, class_letter))
 
 
-def data_export(table_id)
+def data_export(table_id):
+    if table_id == 1:
+        subj_num = enter(int_define, '1: Математика\n'
+                                     '2: Русский язык\n'
+                                     '3: Физика\n'
+                                     '4: География\n'
+                                     '5: Информатика\n'
+                                     'Введите номер предмета изучаемого на уроке: ', True, 1, 5)
+
+        data = export(
+            f'SELECT Subject, (SELECT Educational_year FROM classes WHERE classes.Class_ID == lessons.Class_ID),'
+            f'(SELECT Class_Letter FROM classes WHERE classes.Class_ID == lessons.Class_ID), '
+            f'(SELECT Family_name FROM teachers WHERE teachers.Teacher_ID == lessons.Teacher_ID), '
+            f'(SELECT First_name FROM teachers WHERE teachers.Teacher_ID == lessons.Teacher_ID), '
+            f'(SELECT Middle_name FROM teachers WHERE teachers.Teacher_ID == lessons.Teacher_ID),'
+            f' Lesson_start, Lesson_end, Lesson_notes FROM lessons WHERE Subject == "{subj_dikt[subj_num]}";')
+        data.field_names = ['Предмет', 'Год обучения', 'Буква класса', 'Фамилия учителя', 'Имя учителя',
+                            'Отчество учителя', 'Начало урока', 'Конец урока', 'Заметки к уроку']
+        data.sortby = "Год обучения"
+        print(data)
+    if table_id == 2:
+        year_num = enter(int_define, 'Введите год обучения ученика: ', True, 1, 11)
+        letter = input("Ввведите букву класса ученика: ").upper()
+        data = export(
+            f'SELECT Family_name, First_name,  Middle_name, Sex, '
+            f'(SELECT Educational_year FROM classes WHERE classes.Class_ID == scholars.Class_ID),'
+            f'(SELECT Class_Letter FROM classes WHERE classes.Class_ID == scholars.Class_ID), '
+            f'Birth_date, Medial_grades, Disciplanional_marks FROM scholars WHERE Class_ID == '
+            f'(SELECT Class_ID FROM classes WHERE Class_Letter == "{letter}" AND Educational_year == "{year_num}");')
+        data.field_names = ['Фамилия', 'Имя', 'Отчество', 'Пол', 'Год обучения', 'Буква класса', 'Дата рождения',
+                            'Сред. оценки', 'Отметки о поведении']
+        data.sortby = "Фамилия"
+        print(data)
 
 
 def main():
-    menu = enter(int_define, '1 - Получить данные из базы данных\n'
-                          '2 - Загрузить данные в базу данных\n'
-                          '3 - Изменить данные в базе данных\n'
-                             '4 - Выйти из программы'
-                          'Введите номер пункта меню: ', True, 1, 4)
-    if menu == 1:
-        menu = enter(int_define, '1 - Таблица уроков\n'
-                          '2 - Таблица учеников\n'
-                          '3 - Таблица учителей\n'
-                             '4 - Таблица классов'
-                          'Введите номер пункта меню: ', True, 1, 4)
-        if
+    while True:
+        menu = enter(int_define, '1 - Получить данные из базы данных\n'
+                                 '2 - Загрузить данные в базу данных\n'
+                                 '3 - Изменить данные в базе данных\n'
+                                 '4 - Выйти из программы\n'
+                                 'Введите номер пункта меню: ', True, 1, 4)
+        if menu == 1:
+            menu = enter(int_define, '1 - Таблица уроков\n'
+                                     '2 - Таблица учеников\n'
+                                     '3 - Таблица учителей\n'
+                                     '4 - Таблица классов\n'
+                                     '5 - Назад\n'
+
+                                     'Введите номер пункта меню: ', True, 1, 5)
+            if menu != 5:
+                data_export(menu)
 
 
+subj_dikt = {1: 'Математика', 2: 'Русский язык', 3: 'Физика', 4: 'География', 5: 'Информатика'}
 
 input_lessons = "INSERT OR IGNORE INTO lessons (Subject, Class_ID, Teacher_ID," \
                 " Lesson_start, Lesson_end, Lesson_notes) VALUES(?, ?, ?, ?, ?, ?);"
@@ -79,4 +116,5 @@ input_teachers = "INSERT OR IGNORE INTO teachers (First_name, Family_name,Middle
                  " VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?);"
 input_classes = "INSERT OR IGNORE INTO classes (Educational_year, Class_Letter) VALUES(?, ?);"
 database_init()
-data_input(enter(int_define, 'Номер таблицы: ', True, 1, 4))
+# data_input(enter(int_define, 'Номер таблицы: ', True, 1, 4))
+main()

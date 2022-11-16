@@ -22,7 +22,7 @@ def name_sorted_dict(names):
 def _main_(names_str):
     names = [elem.strip().strip('"') for elem in names_str.split(",")]
     dikt_surnames = {name[name.find(' ') + 1]: name_sorted_dict(surname_dikt_array(name, names)) for name in names}
-    return dikt_surnames
+    return names
 
 
 print(_main_(input()))

@@ -1,5 +1,5 @@
 import sqlite3
-
+from prettytable import PrettyTable, from_db_cursor
 
 def database_init():
     global connection, cursor
@@ -73,6 +73,12 @@ def multi_data_load(input_message, data):
     connection.commit()
 
 
+def export(export_message):
+    cursor.execute(export_message)
+    result = from_db_cursor(cursor)
+    # print(result)
+    return result
+
 database_init()
 # exit()
 input_lessons = "INSERT OR IGNORE INTO lessons (Subject, Class_ID, Teacher_ID," \
@@ -91,7 +97,10 @@ input_classes = "INSERT OR IGNORE INTO classes (Educational_year, Class_Letter) 
 # lesson = [('0001', '-', '0001', '10:40', '11:25', '001', 'Математика')]
 #
 # cursor.executemany(input_lessons, lesson)
-# cursor.execute("SELECT * FROM scholars;")
+
+
+# cursor.execute("SELECT First_name, Family_name, Middle_name, Sex, Class_ID, Birth_date,"
+#                " Medial_grades, Disciplanional_marks FROM scholars WHERE First_name == 'Андрей';")
 # one_result = cursor.fetchall()
 # print(one_result)
 # cursor.execute("SELECT * FROM lessons;")

@@ -1,6 +1,6 @@
 # def create_tuple_list()
 #     names =
-from random import randint, sample, uniform
+from random import randint, sample, uniform, shuffle
 
 from database_control import *
 
@@ -56,6 +56,7 @@ starts, ends = time_gen()
 with open('FIO.txt', 'r') as data:
     array = data.readlines()
 array = list(map(lambda a: tuple(a.strip('\n').split()), array))
+shuffle(array)
 surnames, names, fathnames = zip(*array)
 
 
