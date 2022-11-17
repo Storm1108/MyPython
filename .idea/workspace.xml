@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2c585c5-0ef9-4d1c-8abe-ca72fcd369a8" name="Changes" comment="hw8dev5">
-      <change afterPath="$PROJECT_DIR$/HomeWork/Hw8/main.py" afterDir="false" />
+    <list default="true" id="f2c585c5-0ef9-4d1c-8abe-ca72fcd369a8" name="Changes" comment="HW6 1-5 and HW 7dev1">
+      <change afterPath="$PROJECT_DIR$/HomeWork/Hw9/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/Hw9/config_reader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/Hw9/functions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/Hw9/handlers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/MyPython.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MyPython.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeWork/Hw8/database.db" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/Hw8/database.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeWork/Hw8/database_control.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/Hw8/database_control.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeWork/Hw8/enter.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/Hw8/exceptions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeWork/Hw8/mass_fillment.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/Hw8/mass_fillment.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeWork/Hw8/user_interface.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/Hw8/user_interface.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,26 +44,20 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Proggerstvo/PyCharm/HomeWork/Hw7",
+    "last_opened_file_path": "C:/Proggerstvo/PyCharm/HomeWork/Hw9",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
-  },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "sqlite"
-    ]
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Proggerstvo\PyCharm\HomeWork\Hw9" />
       <recent name="C:\Proggerstvo\PyCharm\HomeWork\Hw7" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -130,11 +124,10 @@
       <option name="presentableId" value="Default" />
       <updated>1667995872347</updated>
       <workItem from="1667995873597" duration="13286000" />
-      <workItem from="1636466117245" duration="13357000" />
-      <workItem from="1668265471919" duration="53000" />
-      <workItem from="1668265534312" duration="7188000" />
-      <workItem from="1668364566733" duration="20452000" />
-      <workItem from="1668601368125" duration="8714000" />
+      <workItem from="1636466117245" duration="3215000" />
+      <workItem from="1668601579860" duration="2743000" />
+      <workItem from="1668687033047" duration="2435000" />
+      <workItem from="1668690369084" duration="16980000" />
     </task>
     <task id="LOCAL-00001" summary="HW6 1-5 and HW 7dev1">
       <created>1668039421438</created>
@@ -143,119 +136,7 @@
       <option name="project" value="LOCAL" />
       <updated>1668039421438</updated>
     </task>
-    <task id="LOCAL-00002" summary="HW6 1-5 and HW 7dev2">
-      <created>1668093953306</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1668093953306</updated>
-    </task>
-    <task id="LOCAL-00003" summary="HW6 1-5 and HW 7dev3">
-      <created>1668100798544</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1668100798544</updated>
-    </task>
-    <task id="LOCAL-00004" summary="HW 7dev3 and HW 72">
-      <created>1668258766152</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1668258766152</updated>
-    </task>
-    <task id="LOCAL-00005" summary="HW 72dev2">
-      <created>1668259760499</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1668259760499</updated>
-    </task>
-    <task id="LOCAL-00006" summary="hw8dev1">
-      <created>1668278847275</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1668278847275</updated>
-    </task>
-    <task id="LOCAL-00007" summary="hw8dev1.5">
-      <created>1668280471160</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1668280471160</updated>
-    </task>
-    <task id="LOCAL-00008" summary="hw8dev1.5">
-      <created>1668281731821</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1668281731821</updated>
-    </task>
-    <task id="LOCAL-00009" summary="hw8dev1.5">
-      <created>1668326484696</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1668326484696</updated>
-    </task>
-    <task id="LOCAL-00010" summary="hw8dev2">
-      <created>1668441711778</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1668441711778</updated>
-    </task>
-    <task id="LOCAL-00011" summary="hw8dev3">
-      <created>1668448327274</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1668448327274</updated>
-    </task>
-    <task id="LOCAL-00012" summary="hw8dev4">
-      <created>1668456988227</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1668456988227</updated>
-    </task>
-    <task id="LOCAL-00013" summary="hw8dev4.1">
-      <created>1668457766566</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1668457766566</updated>
-    </task>
-    <task id="LOCAL-00014" summary="hw8dev4.5">
-      <created>1668458379338</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1668458379338</updated>
-    </task>
-    <task id="LOCAL-00015" summary="hw8dev4.5">
-      <created>1668458446180</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1668458446180</updated>
-    </task>
-    <task id="LOCAL-00016" summary="hw8dev4.6">
-      <created>1668601385490</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1668601385490</updated>
-    </task>
-    <task id="LOCAL-00017" summary="hw8dev5">
-      <created>1668612071072</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1668612071072</updated>
-    </task>
-    <option name="localTasksCounter" value="18" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -307,64 +188,62 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="HW6 1-5 and HW 7dev1" />
-    <MESSAGE value="HW6 1-5 and HW 7dev2" />
-    <MESSAGE value="HW6 1-5 and HW 7dev3" />
-    <MESSAGE value="HW 7dev3 and HW 72" />
-    <MESSAGE value="HW 72dev2" />
-    <MESSAGE value="hw8dev1" />
-    <MESSAGE value="hw8dev1.5" />
-    <MESSAGE value="hw8dev2" />
-    <MESSAGE value="hw8dev3" />
-    <MESSAGE value="hw8dev4" />
-    <MESSAGE value="hw8dev4.1" />
-    <MESSAGE value="hw8dev4.5" />
-    <MESSAGE value="hw8dev4.6" />
-    <MESSAGE value="hw8dev5" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw8dev5" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW6 1-5 and HW 7dev1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/HomeWork/Hw9/handlers.py</url>
+          <line>58</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/HomeWork/Hw9/handlers.py</url>
+          <line>50</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/MyPython$Hw21.coverage" NAME="Hw21 Coverage Results" MODIFIED="1665854814228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw2" />
+    <SUITE FILE_PATH="coverage/MyPython$Hw53.coverage" NAME="Hw53 Coverage Results" MODIFIED="1667589745038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw5/Hw53" />
+    <SUITE FILE_PATH="coverage/MyPython$Hw24.coverage" NAME="Hw24 Coverage Results" MODIFIED="1665855742873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw2" />
+    <SUITE FILE_PATH="coverage/MyPython$Hw62.coverage" NAME="Hw62 Coverage Results" MODIFIED="1667853371038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw6" />
+    <SUITE FILE_PATH="coverage/PyCharm$game.coverage" NAME="game Coverage Results" MODIFIED="1668722486120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw9" />
+    <SUITE FILE_PATH="coverage/PyCharm$config_reader.coverage" NAME="config_reader Coverage Results" MODIFIED="1668691002724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw9" />
+    <SUITE FILE_PATH="coverage/MyPython$Hw61.coverage" NAME="Hw61 Coverage Results" MODIFIED="1667853210193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw6" />
+    <SUITE FILE_PATH="coverage/MyPython$Hw33.coverage" NAME="Hw33 Coverage Results" MODIFIED="1635341838590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw3" />
+    <SUITE FILE_PATH="coverage/PyCharm$Hw65.coverage" NAME="Hw65 Coverage Results" MODIFIED="1668006327990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw6" />
+    <SUITE FILE_PATH="coverage/MyPython$Hw64.coverage" NAME="Hw64 Coverage Results" MODIFIED="1667856977664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw6" />
+    <SUITE FILE_PATH="coverage/PyCharm$UI.coverage" NAME="UI Coverage Results" MODIFIED="1668690372687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw7" />
     <SUITE FILE_PATH="coverage/MyPython$Hw23.coverage" NAME="Hw23 Coverage Results" MODIFIED="1665855190110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw2" />
-    <SUITE FILE_PATH="coverage/MyPython$exceptions.coverage" NAME="exceptions Coverage Results" MODIFIED="1668437862324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw8" />
-    <SUITE FILE_PATH="coverage/MyPython$task_2_1.coverage" NAME="task_2_1 Coverage Results" MODIFIED="1665575048904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads/HW_1_Tasks_2/Sem_2" />
-    <SUITE FILE_PATH="coverage/PyCharm$_logging_.coverage" NAME="_logging_ Coverage Results" MODIFIED="1668035066601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw7" />
-    <SUITE FILE_PATH="coverage/MyPython$exception.coverage" NAME="exception Coverage Results" MODIFIED="1668099572271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw7" />
-    <SUITE FILE_PATH="coverage/MyPython$UI.coverage" NAME="UI Coverage Results" MODIFIED="1668422224922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw7" />
-    <SUITE FILE_PATH="coverage/MyPython$Hw72.coverage" NAME="Hw72 Coverage Results" MODIFIED="1668258681493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw72" />
-    <SUITE FILE_PATH="coverage/MyPython$Hw35.coverage" NAME="Hw35 Coverage Results" MODIFIED="1666953247676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw3" />
-    <SUITE FILE_PATH="coverage/MyPython$Hw64.coverage" NAME="Hw64 Coverage Results" MODIFIED="1668606118977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw6" />
+    <SUITE FILE_PATH="coverage/MyPython$exception.coverage" NAME="exception Coverage Results" MODIFIED="1636466179478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw7" />
+    <SUITE FILE_PATH="coverage/MyPython$controller_UI.coverage" NAME="controller&amp;UI Coverage Results" MODIFIED="1667396303005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw4/Hw45" />
     <SUITE FILE_PATH="coverage/MyPython$Hw32.coverage" NAME="Hw32 Coverage Results" MODIFIED="1666906197140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw3" />
     <SUITE FILE_PATH="coverage/MyPython$Hw41.coverage" NAME="Hw41 Coverage Results" MODIFIED="1667243996371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw4" />
-    <SUITE FILE_PATH="coverage/MyPython$controller_UI.coverage" NAME="controller&amp;UI Coverage Results" MODIFIED="1667396303005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw4/Hw45" />
-    <SUITE FILE_PATH="coverage/MyPython$Hw63.coverage" NAME="Hw63 Coverage Results" MODIFIED="1667855298185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw6" />
-    <SUITE FILE_PATH="coverage/MyPython$Hw34.coverage" NAME="Hw34 Coverage Results" MODIFIED="1666906554901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw3" />
-    <SUITE FILE_PATH="coverage/MyPython$Hw31.coverage" NAME="Hw31 Coverage Results" MODIFIED="1666871193058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw3" />
-    <SUITE FILE_PATH="coverage/MyPython$Hw25.coverage" NAME="Hw25 Coverage Results" MODIFIED="1667853006408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw2" />
-    <SUITE FILE_PATH="coverage/MyPython$Hw43.coverage" NAME="Hw43 Coverage Results" MODIFIED="1667322069247" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw4" />
-    <SUITE FILE_PATH="coverage/MyPython$Hw61.coverage" NAME="Hw61 Coverage Results" MODIFIED="1667853210193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw6" />
-    <SUITE FILE_PATH="coverage/MyPython$Hw11.coverage" NAME="Hw11 Coverage Results" MODIFIED="1665428017542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/MyPython$Hw52.coverage" NAME="Hw52 Coverage Results" MODIFIED="1667570823511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw5/Hw52" />
-    <SUITE FILE_PATH="coverage/MyPython$Hw62.coverage" NAME="Hw62 Coverage Results" MODIFIED="1667853371038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw6" />
-    <SUITE FILE_PATH="coverage/MyPython$main.coverage" NAME="main Coverage Results" MODIFIED="1668616197657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw8" />
-    <SUITE FILE_PATH="coverage/MyPython$Hw42.coverage" NAME="Hw42 Coverage Results" MODIFIED="1667255266645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw4" />
-    <SUITE FILE_PATH="coverage/MyPython$SQLite_init.coverage" NAME="SQLite_init Coverage Results" MODIFIED="1668280909988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw8" />
-    <SUITE FILE_PATH="coverage/PyCharm$Hw65.coverage" NAME="Hw65 Coverage Results" MODIFIED="1668006327990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw6" />
-    <SUITE FILE_PATH="coverage/PyCharm$main.coverage" NAME="main Coverage Results" MODIFIED="1668040321375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw7" />
-    <SUITE FILE_PATH="coverage/MyPython$logging.coverage" NAME="logging Coverage Results" MODIFIED="1668100559160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw7" />
-    <SUITE FILE_PATH="coverage/MyPython$Hw45.coverage" NAME="Hw45 Coverage Results" MODIFIED="1667391440688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw4/Hw45" />
-    <SUITE FILE_PATH="coverage/PyCharm$UI.coverage" NAME="UI Coverage Results" MODIFIED="1668040403865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw7" />
-    <SUITE FILE_PATH="coverage/MyPython$Hw22.coverage" NAME="Hw22 Coverage Results" MODIFIED="1665855029126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw2" />
-    <SUITE FILE_PATH="coverage/PyCharm$operation_controller.coverage" NAME="operation_controller Coverage Results" MODIFIED="1668040316116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw7" />
     <SUITE FILE_PATH="coverage/MyPython$Hw44.coverage" NAME="Hw44 Coverage Results" MODIFIED="1667396738322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw4/Hw44" />
-    <SUITE FILE_PATH="coverage/MyPython$Hw21.coverage" NAME="Hw21 Coverage Results" MODIFIED="1665854814228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw2" />
-    <SUITE FILE_PATH="coverage/MyPython$Hw51.coverage" NAME="Hw51 Coverage Results" MODIFIED="1667398307156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw5" />
+    <SUITE FILE_PATH="coverage/MyPython$Hw35.coverage" NAME="Hw35 Coverage Results" MODIFIED="1666953247676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw3" />
+    <SUITE FILE_PATH="coverage/PyCharm$handlers.coverage" NAME="handlers Coverage Results" MODIFIED="1668724782166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw9" />
+    <SUITE FILE_PATH="coverage/MyPython$task_2_1.coverage" NAME="task_2_1 Coverage Results" MODIFIED="1665575048904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads/HW_1_Tasks_2/Sem_2" />
+    <SUITE FILE_PATH="coverage/MyPython$Hw11.coverage" NAME="Hw11 Coverage Results" MODIFIED="1665428017542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PyCharm$_logging_.coverage" NAME="_logging_ Coverage Results" MODIFIED="1668035066601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw7" />
+    <SUITE FILE_PATH="coverage/MyPython$Hw34.coverage" NAME="Hw34 Coverage Results" MODIFIED="1666906554901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw3" />
+    <SUITE FILE_PATH="coverage/MyPython$Hw43.coverage" NAME="Hw43 Coverage Results" MODIFIED="1667322069247" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw4" />
+    <SUITE FILE_PATH="coverage/PyCharm$operation_controller.coverage" NAME="operation_controller Coverage Results" MODIFIED="1668040316116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw7" />
+    <SUITE FILE_PATH="coverage/MyPython$Hw52.coverage" NAME="Hw52 Coverage Results" MODIFIED="1667570823511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw5/Hw52" />
     <SUITE FILE_PATH="coverage/MyPython$logic.coverage" NAME="logic Coverage Results" MODIFIED="1667576433819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw4/Hw45" />
-    <SUITE FILE_PATH="coverage/MyPython$Hw53.coverage" NAME="Hw53 Coverage Results" MODIFIED="1667589745038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw5/Hw53" />
-    <SUITE FILE_PATH="coverage/MyPython$database_control.coverage" NAME="database_control Coverage Results" MODIFIED="1668607020700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw8" />
-    <SUITE FILE_PATH="coverage/MyPython$Hw33.coverage" NAME="Hw33 Coverage Results" MODIFIED="1635341838590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw3" />
-    <SUITE FILE_PATH="coverage/MyPython$user_interface.coverage" NAME="user_interface Coverage Results" MODIFIED="1668613158099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw8" />
-    <SUITE FILE_PATH="coverage/MyPython$Hw24.coverage" NAME="Hw24 Coverage Results" MODIFIED="1665855742873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw2" />
-    <SUITE FILE_PATH="coverage/MyPython$mass_fillment.coverage" NAME="mass_fillment Coverage Results" MODIFIED="1668610820382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw8" />
+    <SUITE FILE_PATH="coverage/MyPython$Hw42.coverage" NAME="Hw42 Coverage Results" MODIFIED="1667255266645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw4" />
+    <SUITE FILE_PATH="coverage/MyPython$Hw51.coverage" NAME="Hw51 Coverage Results" MODIFIED="1667398307156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw5" />
+    <SUITE FILE_PATH="coverage/PyCharm$user_interface.coverage" NAME="user_interface Coverage Results" MODIFIED="1668601653048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw8" />
+    <SUITE FILE_PATH="coverage/MyPython$Hw45.coverage" NAME="Hw45 Coverage Results" MODIFIED="1667391440688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw4/Hw45" />
+    <SUITE FILE_PATH="coverage/MyPython$UI.coverage" NAME="UI Coverage Results" MODIFIED="1668093929286" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw7" />
+    <SUITE FILE_PATH="coverage/MyPython$Hw25.coverage" NAME="Hw25 Coverage Results" MODIFIED="1667853006408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw2" />
+    <SUITE FILE_PATH="coverage/MyPython$Hw63.coverage" NAME="Hw63 Coverage Results" MODIFIED="1667855298185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw6" />
+    <SUITE FILE_PATH="coverage/MyPython$Hw31.coverage" NAME="Hw31 Coverage Results" MODIFIED="1666871193058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw3" />
+    <SUITE FILE_PATH="coverage/MyPython$Hw22.coverage" NAME="Hw22 Coverage Results" MODIFIED="1665855029126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw2" />
+    <SUITE FILE_PATH="coverage/PyCharm$main.coverage" NAME="main Coverage Results" MODIFIED="1668715544312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HomeWork/Hw9" />
   </component>
 </project>
