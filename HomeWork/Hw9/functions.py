@@ -1,5 +1,4 @@
 from aiogram import *
-import asyncio
 
 
 def game_kb_create(game_data):

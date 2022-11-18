@@ -31,6 +31,8 @@ def export(user_id):
     gamedata = list(cursor.fetchone())
     print(gamedata)
     return gamedata
+
+
 def data_change(user_id, user_name, gamedata):
     gamedata = list(gamedata)
     gamedata.insert(0, user_name)

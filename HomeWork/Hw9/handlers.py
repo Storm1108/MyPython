@@ -1,8 +1,9 @@
 import datetime
 import logging
+
 from config_reader import config
-from functions import *
 from database_control import *
+from functions import *
 
 logging.basicConfig(level=logging.INFO, filename='log.csv')
 
@@ -29,6 +30,7 @@ async def crosses(message: types.Message):
     await bot.send_message(chat_id=message.chat.id, text=f'Выберите позицию для {game_data[11]}',
                            reply_markup=game_kb_create(game_data))
     data_change(u_id, u_name, game_data)
+
 
 @dp.callback_query_handler()
 async def callback_func(query):
@@ -63,6 +65,3 @@ async def callback_func(query):
 
 async def main():
     await dp.start_polling(bot)
-
-
-
