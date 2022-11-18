@@ -28,7 +28,7 @@ def check(game_data):
             elif game_data[11] == chr(11093):
                 game_data[11] = chr(10060)
             game_data[9] = game_data[11]
-        elif game_data[10] >= 10:
+        elif game_data[10] >= 9:
             if game_data[11] == chr(10060):
                 game_data[11] = chr(11093)
             elif game_data[11] == chr(11093):

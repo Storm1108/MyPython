@@ -1,0 +1,17 @@
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+WARNING:aiogram.dispatcher.dispatcher:Polling is stopped.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+WARNING:aiogram.dispatcher.dispatcher:Polling is stopped.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:root:Ход в игре-2022-11-19 01:10:32.168256-536297652-Andrey-[1, 2, 3, '❌', 5, 6, 7, 8, 9, 9, 1, '⭕']
+INFO:root:Ход в игре-2022-11-19 01:10:32.781429-536297652-Andrey-['⭕', 2, 3, '❌', 5, 6, 7, 8, 9, 9, 2, '❌']
+INFO:root:Ход в игре-2022-11-19 01:10:33.291899-536297652-Andrey-['⭕', 2, 3, '❌', '❌', 6, 7, 8, 9, 9, 3, '⭕']
+INFO:root:Ход в игре-2022-11-19 01:10:33.675507-536297652-Andrey-['⭕', '⭕', 3, '❌', '❌', 6, 7, 8, 9, 9, 4, '❌']
+INFO:root:Ход в игре-2022-11-19 01:10:34.085362-536297652-Andrey-['⭕', '⭕', 3, '❌', '❌', 6, '❌', 8, 9, 9, 5, '⭕']
+INFO:root:Конец игры-2022-11-19 01:10:38.938289-536297652-Andrey-['⭕', '⭕', '⭕', '❌', '❌', 6, '❌', 8, 9, '⭕', 6, '⭕']
+WARNING:aiogram.dispatcher.dispatcher:Polling is stopped.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:root:Ход в игре-2022-11-19 01:30:49.562898-536297652-Andrey-['❌', 2, 3, 4, 5, 6, 7, 8, 9, 9, 1, '⭕']
+INFO:root:Начало игры-2022-11-19 01:30:52.455871-536297652-Andrey-[1, 2, 3, 4, 5, 6, 7, 8, 9, 9, 0, '❌']
+INFO:root:Начало игры-2022-11-19 01:30:58.366816-536297652-Andrey-[1, 2, 3, 4, 5, 6, 7, 8, 9, 9, 0, '❌']
+INFO:root:Ход в игре-2022-11-19 01:31:01.180265-536297652-Andrey-['❌', 2, 3, 4, 5, 6, 7, 8, 9, 9, 1, '⭕']
