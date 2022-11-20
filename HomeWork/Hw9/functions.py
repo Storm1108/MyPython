@@ -1,6 +1,6 @@
 import datetime
 import logging
-
+from keyboards import calc_kb
 from aiogram import *
 
 from database_control import *
@@ -83,3 +83,34 @@ async def game(query, bot):
         except Exception:
             logging.info(f'Неверный ход-{datetime.datetime.now()}-{u_id}-{u_name}-{game_data[11]})')
     data_change_game(u_id, u_name, game_data)
+
+async def calc(query, bot, data):
+    u_id = query.from_user.id
+    u_name = query.from_user.first_name
+    value = export_calc(u_id)
+    if data == 'no':
+        pass
+    elif data == 'C':
+        value = ''
+    elif data == '<=':
+        value = value[:len(value) - 1]
+    elif data == '=':
+        try:
+            logging.info(f'Попытка операции-{datetime.datetime.now()}-{u_id}-{u_name}-{value}')
+            value = str(eval(value))
+        except ZeroDivisionError:
+            value = 'Ошибка'
+        logging.info(f'Результат-{datetime.datetime.now()}-{u_id}-{u_name}-{value}')
+    else:
+        value += data
+    if value == '':
+        await bot.edit_message_text(text=f'0', chat_id=query.message.chat.id,
+                                    message_id=query.message.message_id, reply_markup=calc_kb)
+    elif 'Ошибка' in value:
+        await bot.edit_message_text(text=f'{value}', chat_id=query.message.chat.id,
+                                    message_id=query.message.message_id, reply_markup=calc_kb)
+        value = ''
+    else:
+        await bot.edit_message_text(text=f'{value}', chat_id=query.message.chat.id,
+                                    message_id=query.message.message_id, reply_markup=calc_kb)
+    data_change_calc(u_id, u_name, value)

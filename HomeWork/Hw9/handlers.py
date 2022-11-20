@@ -1,9 +1,6 @@
-import datetime
-import logging
-from keyboards import calc_kb
 from config_reader import config
-from database_control import *
 from functions import *
+from keyboards import calc_kb
 
 logging.basicConfig(level=logging.INFO, filename='log.csv')
 
@@ -35,8 +32,9 @@ async def crosses(message: types.Message):
 @dp.message_handler(commands=['calc'])
 async def calculator(msg: types.Message):
     value = ''
-    data_change_calc(msg.from_user.id, msg.from_user.first_name,value)
+    data_change_calc(msg.from_user.id, msg.from_user.first_name, value)
     await bot.send_message(chat_id=msg.chat.id, text='Добро пожаловать в калькулятор', reply_markup=calc_kb)
+
 
 @dp.callback_query_handler()
 async def callback_func(query):
@@ -44,33 +42,8 @@ async def callback_func(query):
     if data[0] == 'g':
         await game(query, bot)
     else:
-        u_id = query.from_user.id
-        u_name = query.from_user.first_name
-        value = export_calc(u_id)
-        if data == 'no':
-            pass
-        elif data == 'C':
-            value = ''
-        elif data == '<=':
-            value = value[:len(value)-1]
-        elif data == '=':
-            try:
-                logging.info(f'Попытка операции-{datetime.datetime.now()}-{u_id}-{u_name}-{value}')
-                value = str(eval(value))
-            except ZeroDivisionError:
-                value = 'Ошибка'
-            logging.info(f'Результат-{datetime.datetime.now()}-{u_id}-{u_name}-{value}')
-        else: value += data
-        if value == '':
-            await bot.edit_message_text(text=f'0', chat_id=query.message.chat.id,
-                                        message_id=query.message.message_id, reply_markup=calc_kb)
-        elif 'Ошибка' in value:
-            await bot.edit_message_text(text=f'{value}', chat_id=query.message.chat.id,
-                                        message_id=query.message.message_id, reply_markup=calc_kb)
-            value = ''
-        else:
-            await bot.edit_message_text(text=f'{value}', chat_id=query.message.chat.id,
-                                        message_id=query.message.message_id, reply_markup=calc_kb)
-        data_change_calc(u_id, u_name, value)
+        await calc(query, bot, data)
+
+
 async def main():
     await dp.start_polling(bot)

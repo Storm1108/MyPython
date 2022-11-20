@@ -1436,3 +1436,69 @@ INFO:root:Ход в игре-2022-11-20 23:51:03.823413-536297652-Andrey-['⭕',
 INFO:root:Конец игры-2022-11-20 23:51:04.538256-536297652-Andrey-['⭕', '❌', '❌', '❌', '⭕', '⭕', '⭕', '❌', '❌', 0, 9, '❌']
 INFO:root:Попытка операции-2022-11-20 23:51:08.875873-536297652-Andrey-456951*6
 INFO:root:Результат-2022-11-20 23:51:08.876088-536297652-Andrey-2741706
+WARNING:aiogram.dispatcher.dispatcher:Polling is stopped.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-6' coro=<Dispatcher._process_polling_updates() done, defined at /usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=NameError("name 'calc_kb' is not defined")>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/storm/Documents/Progerstvo/MyPython/HomeWork/Hw9/handlers.py", line 45, in callback_func
+    await calc(query, bot, data)
+  File "/Users/storm/Documents/Progerstvo/MyPython/HomeWork/Hw9/functions.py", line 115, in calc
+    message_id=query.message.message_id, reply_markup=calc_kb)
+NameError: name 'calc_kb' is not defined
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-10' coro=<Dispatcher._process_polling_updates() done, defined at /usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=NameError("name 'calc_kb' is not defined")>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/storm/Documents/Progerstvo/MyPython/HomeWork/Hw9/handlers.py", line 45, in callback_func
+    await calc(query, bot, data)
+  File "/Users/storm/Documents/Progerstvo/MyPython/HomeWork/Hw9/functions.py", line 115, in calc
+    message_id=query.message.message_id, reply_markup=calc_kb)
+NameError: name 'calc_kb' is not defined
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-14' coro=<Dispatcher._process_polling_updates() done, defined at /usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=NameError("name 'calc_kb' is not defined")>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/storm/Documents/Progerstvo/MyPython/HomeWork/Hw9/handlers.py", line 45, in callback_func
+    await calc(query, bot, data)
+  File "/Users/storm/Documents/Progerstvo/MyPython/HomeWork/Hw9/functions.py", line 115, in calc
+    message_id=query.message.message_id, reply_markup=calc_kb)
+NameError: name 'calc_kb' is not defined
+WARNING:aiogram.dispatcher.dispatcher:Polling is stopped.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:root:Попытка операции-2022-11-20 23:55:16.297007-536297652-Andrey-452/6
+INFO:root:Результат-2022-11-20 23:55:16.297199-536297652-Andrey-75.33333333333333
+INFO:root:Попытка операции-2022-11-20 23:55:22.907732-536297652-Andrey-5/0
+INFO:root:Результат-2022-11-20 23:55:22.907895-536297652-Andrey-Ошибка
+INFO:root:Ход в игре-2022-11-20 23:55:36.949380-536297652-Andrey-['❌', 2, 3, 4, 5, 6, 7, 8, 9, 9, 1, '⭕']
+INFO:root:Ход в игре-2022-11-20 23:55:37.558564-536297652-Andrey-['❌', 2, 3, '⭕', 5, 6, 7, 8, 9, 9, 2, '❌']
+INFO:root:Ход в игре-2022-11-20 23:55:37.991704-536297652-Andrey-['❌', 2, 3, '⭕', '❌', 6, 7, 8, 9, 9, 3, '⭕']
+WARNING:aiogram.dispatcher.dispatcher:Polling is stopped.
