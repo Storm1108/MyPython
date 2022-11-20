@@ -1502,3 +1502,9 @@ INFO:root:Ход в игре-2022-11-20 23:55:36.949380-536297652-Andrey-['❌',
 INFO:root:Ход в игре-2022-11-20 23:55:37.558564-536297652-Andrey-['❌', 2, 3, '⭕', 5, 6, 7, 8, 9, 9, 2, '❌']
 INFO:root:Ход в игре-2022-11-20 23:55:37.991704-536297652-Andrey-['❌', 2, 3, '⭕', '❌', 6, 7, 8, 9, 9, 3, '⭕']
 WARNING:aiogram.dispatcher.dispatcher:Polling is stopped.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:root:Ход в игре-2022-11-20 23:57:09.422016-536297652-Andrey-['❌', 2, 3, '⭕', '❌', 6, 7, '⭕', 9, 9, 4, '❌']
+INFO:root:Ход в игре-2022-11-20 23:57:09.972274-536297652-Andrey-['❌', 2, 3, '⭕', '❌', '❌', 7, '⭕', 9, 9, 5, '⭕']
+INFO:root:Попытка операции-2022-11-20 23:57:41.544610-536297652-Andrey-52.6-.3
+INFO:root:Результат-2022-11-20 23:57:41.544846-536297652-Andrey-52.300000000000004
+WARNING:aiogram.dispatcher.dispatcher:Polling is stopped.

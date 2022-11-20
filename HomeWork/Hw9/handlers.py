@@ -12,9 +12,9 @@ dp = Dispatcher(bot)
 async def send_welcome(message: types.Message):
     name = message.from_user.first_name
     await message.reply(f"Привет, {name}!\n"
-                        "Я бот сделанный по заданию ГикБрейнс\n"
+                        "Я бот созданный Андреем М.\n"
                         "Список доступных команд:\n"
-                        "/help - Просмотр списка всех команд заного\n"
+                        "/calc - Запустить калькулятор\n"
                         "/game - запуск игры в крестики-нолики\n")
 
 

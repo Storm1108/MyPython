@@ -1,6 +1,6 @@
 from aiogram import types
 
-calc_kb = types.InlineKeyboardMarkup(row_width=4 )
+calc_kb = types.InlineKeyboardMarkup(row_width=4)
 button1 = types.InlineKeyboardButton(text=f'', callback_data='no')
 button2 = types.InlineKeyboardButton(text=f'C', callback_data='C')
 button3 = types.InlineKeyboardButton(text=f'<=', callback_data='<=')

@@ -1,9 +1,10 @@
 import datetime
 import logging
-from keyboards import calc_kb
+
 from aiogram import *
 
 from database_control import *
+from keyboards import calc_kb
 
 
 def game_kb_create(game_data):
@@ -83,6 +84,7 @@ async def game(query, bot):
         except Exception:
             logging.info(f'Неверный ход-{datetime.datetime.now()}-{u_id}-{u_name}-{game_data[11]})')
     data_change_game(u_id, u_name, game_data)
+
 
 async def calc(query, bot, data):
     u_id = query.from_user.id
