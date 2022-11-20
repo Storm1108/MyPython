@@ -62,3 +62,1377 @@ INFO:aiogram.dispatcher.dispatcher:Start polling.
 WARNING:aiogram.dispatcher.dispatcher:Polling is stopped.
 INFO:aiogram.dispatcher.dispatcher:Start polling.
 WARNING:aiogram.dispatcher.dispatcher:Polling is stopped.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:root:Начало игры-2022-11-19 02:44:22.879747-818719233-Вероника-[1, 2, 3, 4, 5, 6, 7, 8, 9, 9, 0, '❌']
+INFO:root:Ход в игре-2022-11-19 02:44:25.431323-818719233-Вероника-[1, 2, 3, 4, '❌', 6, 7, 8, 9, 9, 1, '⭕']
+INFO:root:Ход в игре-2022-11-19 02:44:28.961215-818719233-Вероника-[1, 2, 3, '⭕', '❌', 6, 7, 8, 9, 9, 2, '❌']
+INFO:root:Ход в игре-2022-11-19 02:44:31.566336-818719233-Вероника-[1, '❌', 3, '⭕', '❌', 6, 7, 8, 9, 9, 3, '⭕']
+INFO:root:Ход в игре-2022-11-19 02:44:32.871478-818719233-Вероника-[1, '❌', 3, '⭕', '❌', 6, 7, '⭕', 9, 9, 4, '❌']
+INFO:root:Ход в игре-2022-11-19 02:44:34.998951-818719233-Вероника-[1, '❌', 3, '⭕', '❌', 6, 7, '⭕', '❌', 9, 5, '⭕']
+INFO:root:Ход в игре-2022-11-19 02:44:36.204302-818719233-Вероника-['⭕', '❌', 3, '⭕', '❌', 6, 7, '⭕', '❌', 9, 6, '❌']
+INFO:root:Ход в игре-2022-11-19 02:44:37.381327-818719233-Вероника-['⭕', '❌', 3, '⭕', '❌', 6, '❌', '⭕', '❌', 9, 7, '⭕']
+INFO:root:Ход в игре-2022-11-19 02:44:38.347492-818719233-Вероника-['⭕', '❌', '⭕', '⭕', '❌', 6, '❌', '⭕', '❌', 9, 8, '❌']
+INFO:root:Конец игры-2022-11-19 02:44:39.258265-818719233-Вероника-['⭕', '❌', '⭕', '⭕', '❌', '❌', '❌', '⭕', '❌', 0, 9, '❌']
+INFO:root:Начало игры-2022-11-19 02:45:18.889247-818719233-Вероника-[1, 2, 3, 4, 5, 6, 7, 8, 9, 9, 0, '❌']
+INFO:root:Ход в игре-2022-11-19 02:45:20.631017-818719233-Вероника-[1, 2, '❌', 4, 5, 6, 7, 8, 9, 9, 1, '⭕']
+INFO:root:Ход в игре-2022-11-19 02:45:21.448822-818719233-Вероника-[1, 2, '❌', 4, '⭕', 6, 7, 8, 9, 9, 2, '❌']
+INFO:root:Ход в игре-2022-11-19 02:45:22.441117-818719233-Вероника-[1, 2, '❌', 4, '⭕', 6, 7, 8, '❌', 9, 3, '⭕']
+INFO:root:Ход в игре-2022-11-19 02:45:23.430890-818719233-Вероника-[1, 2, '❌', 4, '⭕', 6, '⭕', 8, '❌', 9, 4, '❌']
+INFO:root:Ход в игре-2022-11-19 02:45:24.442160-818719233-Вероника-['❌', 2, '❌', 4, '⭕', 6, '⭕', 8, '❌', 9, 5, '⭕']
+INFO:root:Ход в игре-2022-11-19 02:45:26.769803-818719233-Вероника-['❌', 2, '❌', 4, '⭕', 6, '⭕', '⭕', '❌', 9, 6, '❌']
+INFO:root:Конец игры-2022-11-19 02:45:27.730020-818719233-Вероника-['❌', '❌', '❌', 4, '⭕', 6, '⭕', '⭕', '❌', '❌', 7, '❌']
+INFO:root:Ход в игре-2022-11-19 02:45:30.511048-818719233-Вероника-[1, 2, 3, 4, 5, '❌', 7, 8, 9, 9, 1, '⭕']
+INFO:root:Ход в игре-2022-11-19 02:45:32.307907-818719233-Вероника-[1, 2, 3, 4, 5, '❌', '⭕', 8, 9, 9, 2, '❌']
+INFO:root:Ход в игре-2022-11-19 02:45:33.431486-818719233-Вероника-['❌', 2, 3, 4, 5, '❌', '⭕', 8, 9, 9, 3, '⭕']
+INFO:root:Ход в игре-2022-11-19 02:45:34.398770-818719233-Вероника-['❌', 2, 3, 4, '⭕', '❌', '⭕', 8, 9, 9, 4, '❌']
+INFO:root:Ход в игре-2022-11-19 02:45:35.322509-818719233-Вероника-['❌', 2, 3, 4, '⭕', '❌', '⭕', '❌', 9, 9, 5, '⭕']
+INFO:root:Ход в игре-2022-11-19 02:45:35.862526-536297652-Andrey-['❌', 2, 3, '⭕', '❌', 6, '⭕', 8, 9, 9, 4, '❌']
+INFO:root:Ход в игре-2022-11-19 02:45:36.217040-818719233-Вероника-['❌', '⭕', 3, 4, '⭕', '❌', '⭕', '❌', 9, 9, 6, '❌']
+INFO:root:Ход в игре-2022-11-19 02:45:36.587188-536297652-Andrey-['❌', 2, 3, '⭕', '❌', 6, '⭕', '❌', 9, 9, 5, '⭕']
+INFO:root:Ход в игре-2022-11-19 02:45:37.702165-536297652-Andrey-['❌', '⭕', 3, '⭕', '❌', 6, '⭕', '❌', 9, 9, 6, '❌']
+INFO:root:Ход в игре-2022-11-19 02:45:38.234299-536297652-Andrey-['❌', '⭕', 3, '⭕', '❌', '❌', '⭕', '❌', 9, 9, 7, '⭕']
+INFO:root:Ход в игре-2022-11-19 02:45:38.658367-536297652-Andrey-['❌', '⭕', 3, '⭕', '❌', '❌', '⭕', '❌', '⭕', 9, 8, '❌']
+INFO:root:Ход в игре-2022-11-19 02:45:38.930760-818719233-Вероника-['❌', '⭕', 3, '❌', '⭕', '❌', '⭕', '❌', 9, 9, 7, '⭕']
+INFO:root:Ход в игре-2022-11-19 02:45:39.922835-818719233-Вероника-['❌', '⭕', 3, '❌', '⭕', '❌', '⭕', '❌', '⭕', 9, 8, '❌']
+INFO:root:Начало игры-2022-11-19 02:45:40.450857-536297652-Andrey-[1, 2, 3, 4, 5, 6, 7, 8, 9, 9, 0, '❌']
+INFO:root:Конец игры-2022-11-19 02:45:40.840010-818719233-Вероника-['❌', '⭕', '❌', '❌', '⭕', '❌', '⭕', '❌', '⭕', 0, 9, '❌']
+INFO:root:Ход в игре-2022-11-19 02:45:41.395206-536297652-Andrey-['❌', 2, 3, 4, 5, 6, 7, 8, 9, 9, 1, '⭕']
+INFO:root:Ход в игре-2022-11-19 02:45:42.123293-536297652-Andrey-['❌', 2, 3, 4, 5, 6, 7, '⭕', 9, 9, 2, '❌']
+INFO:root:Ход в игре-2022-11-19 02:45:42.526741-536297652-Andrey-['❌', 2, 3, 4, '❌', 6, 7, '⭕', 9, 9, 3, '⭕']
+INFO:root:Ход в игре-2022-11-19 02:45:42.989111-536297652-Andrey-['❌', 2, 3, 4, '❌', '⭕', 7, '⭕', 9, 9, 4, '❌']
+INFO:root:Конец игры-2022-11-19 02:45:43.659748-536297652-Andrey-['❌', 2, 3, 4, '❌', '⭕', 7, '⭕', '❌', '❌', 5, '❌']
+INFO:root:Ход в игре-2022-11-19 02:45:49.054136-536297652-Andrey-[1, 2, 3, '❌', 5, 6, 7, 8, 9, 9, 1, '⭕']
+INFO:root:Ход в игре-2022-11-19 02:45:49.555321-536297652-Andrey-[1, 2, 3, '❌', 5, 6, '⭕', 8, 9, 9, 2, '❌']
+INFO:root:Ход в игре-2022-11-19 02:45:50.540730-536297652-Andrey-['❌', 2, 3, '❌', 5, 6, '⭕', 8, 9, 9, 3, '⭕']
+INFO:root:Ход в игре-2022-11-19 02:45:50.863572-536297652-Andrey-['❌', 2, 3, '❌', '⭕', 6, '⭕', 8, 9, 9, 4, '❌']
+INFO:root:Ход в игре-2022-11-19 02:45:51.228535-536297652-Andrey-['❌', 2, 3, '❌', '⭕', 6, '⭕', '❌', 9, 9, 5, '⭕']
+INFO:root:Ход в игре-2022-11-19 02:46:09.778932-818719233-Вероника-[1, '❌', 3, 4, 5, 6, 7, 8, 9, 9, 1, '⭕']
+INFO:root:Ход в игре-2022-11-19 02:46:12.339066-818719233-Вероника-[1, '❌', 3, 4, '⭕', 6, 7, 8, 9, 9, 2, '❌']
+INFO:root:Ход в игре-2022-11-19 02:46:13.434845-818719233-Вероника-['❌', '❌', 3, 4, '⭕', 6, 7, 8, 9, 9, 3, '⭕']
+INFO:root:Ход в игре-2022-11-19 02:46:14.807480-818719233-Вероника-['❌', '❌', 3, 4, '⭕', 6, '⭕', 8, 9, 9, 4, '❌']
+INFO:root:Конец игры-2022-11-19 02:46:15.754236-818719233-Вероника-['❌', '❌', '❌', 4, '⭕', 6, '⭕', 8, 9, '❌', 5, '❌']
+INFO:root:Ход в игре-2022-11-19 02:46:17.355772-818719233-Вероника-[1, 2, 3, '❌', 5, 6, 7, 8, 9, 9, 1, '⭕']
+INFO:root:Ход в игре-2022-11-19 02:46:18.929775-818719233-Вероника-[1, 2, 3, '❌', '⭕', 6, 7, 8, 9, 9, 2, '❌']
+INFO:root:Ход в игре-2022-11-19 02:46:21.436024-818719233-Вероника-[1, '❌', 3, '❌', '⭕', 6, 7, 8, 9, 9, 3, '⭕']
+INFO:root:Ход в игре-2022-11-19 02:46:22.364845-818719233-Вероника-[1, '❌', 3, '❌', '⭕', 6, 7, '⭕', 9, 9, 4, '❌']
+INFO:root:Ход в игре-2022-11-19 02:46:23.416429-818719233-Вероника-[1, '❌', 3, '❌', '⭕', '❌', 7, '⭕', 9, 9, 5, '⭕']
+INFO:root:Ход в игре-2022-11-19 02:46:24.488170-818719233-Вероника-[1, '❌', 3, '❌', '⭕', '❌', '⭕', '⭕', 9, 9, 6, '❌']
+INFO:root:Ход в игре-2022-11-19 02:46:25.292155-818719233-Вероника-['❌', '❌', 3, '❌', '⭕', '❌', '⭕', '⭕', 9, 9, 7, '⭕']
+INFO:root:Конец игры-2022-11-19 02:46:28.030389-818719233-Вероника-['❌', '❌', 3, '❌', '⭕', '❌', '⭕', '⭕', '⭕', '⭕', 8, '⭕']
+INFO:root:Ход в игре-2022-11-19 02:46:28.944284-818719233-Вероника-[1, 2, '❌', 4, 5, 6, 7, 8, 9, 9, 1, '⭕']
+INFO:root:Начало игры-2022-11-19 02:53:43.655495-536297652-Andrey-[1, 2, 3, 4, 5, 6, 7, 8, 9, 9, 0, '❌']
+INFO:root:Ход в игре-2022-11-19 02:53:53.473069-536297652-Andrey-[1, 2, 3, '❌', 5, 6, 7, 8, 9, 9, 1, '⭕']
+INFO:root:Ход в игре-2022-11-19 02:53:54.142727-536297652-Andrey-[1, 2, 3, '❌', '⭕', 6, 7, 8, 9, 9, 2, '❌']
+INFO:root:Ход в игре-2022-11-19 02:53:54.459537-536297652-Andrey-[1, 2, 3, '❌', '⭕', 6, 7, '❌', 9, 9, 3, '⭕']
+INFO:root:Ход в игре-2022-11-19 02:53:55.022460-536297652-Andrey-[1, 2, 3, '❌', '⭕', 6, 7, '❌', '⭕', 9, 4, '❌']
+INFO:root:Ход в игре-2022-11-19 02:53:55.315608-536297652-Andrey-[1, 2, 3, '❌', '⭕', '❌', 7, '❌', '⭕', 9, 5, '⭕']
+INFO:root:Конец игры-2022-11-19 02:54:01.095514-536297652-Andrey-['⭕', 2, 3, '❌', '⭕', '❌', 7, '❌', '⭕', '⭕', 6, '⭕']
+ERROR:aiogram.dispatcher.dispatcher:Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/usr/local/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/usr/local/lib/python3.9/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/client.py", line 1141, in __aenter__
+    self._resp = await self._coro
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/client.py", line 560, in _request
+    await resp.start(conn)
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/client_reqrep.py", line 914, in start
+    self._continue = None
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/helpers.py", line 720, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+ERROR:aiogram.dispatcher.dispatcher:Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/usr/local/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/usr/local/lib/python3.9/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/client.py", line 1141, in __aenter__
+    self._resp = await self._coro
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/client.py", line 560, in _request
+    await resp.start(conn)
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/client_reqrep.py", line 914, in start
+    self._continue = None
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/helpers.py", line 720, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+ERROR:aiogram.dispatcher.dispatcher:Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/usr/local/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/usr/local/lib/python3.9/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/client.py", line 1141, in __aenter__
+    self._resp = await self._coro
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/client.py", line 560, in _request
+    await resp.start(conn)
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/client_reqrep.py", line 914, in start
+    self._continue = None
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/helpers.py", line 720, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+INFO:root:Начало игры-2022-11-19 06:04:40.501179-884857325-Дарья-[1, 2, 3, 4, 5, 6, 7, 8, 9, 9, 0, '❌']
+INFO:root:Ход в игре-2022-11-19 06:04:44.687693-884857325-Дарья-[1, 2, '❌', 4, 5, 6, 7, 8, 9, 9, 1, '⭕']
+INFO:root:Ход в игре-2022-11-19 06:04:47.721695-884857325-Дарья-[1, 2, '❌', 4, '⭕', 6, 7, 8, 9, 9, 2, '❌']
+INFO:root:Ход в игре-2022-11-19 06:04:49.666250-884857325-Дарья-['❌', 2, '❌', 4, '⭕', 6, 7, 8, 9, 9, 3, '⭕']
+INFO:root:Ход в игре-2022-11-19 06:04:52.021901-884857325-Дарья-['❌', 2, '❌', '⭕', '⭕', 6, 7, 8, 9, 9, 4, '❌']
+INFO:root:Ход в игре-2022-11-19 06:04:53.639508-884857325-Дарья-['❌', 2, '❌', '⭕', '⭕', 6, 7, 8, '❌', 9, 5, '⭕']
+INFO:root:Ход в игре-2022-11-19 06:04:55.207110-884857325-Дарья-['❌', '⭕', '❌', '⭕', '⭕', 6, 7, 8, '❌', 9, 6, '❌']
+INFO:root:Конец игры-2022-11-19 06:04:57.278414-884857325-Дарья-['❌', '⭕', '❌', '⭕', '⭕', '❌', 7, 8, '❌', '❌', 7, '❌']
+INFO:root:Ход в игре-2022-11-19 06:05:00.626452-884857325-Дарья-[1, 2, 3, 4, 5, 6, 7, '❌', 9, 9, 1, '⭕']
+INFO:root:Ход в игре-2022-11-19 06:05:02.681956-884857325-Дарья-[1, '⭕', 3, 4, 5, 6, 7, '❌', 9, 9, 2, '❌']
+INFO:root:Ход в игре-2022-11-19 06:05:03.674133-884857325-Дарья-[1, '⭕', 3, 4, '❌', 6, 7, '❌', 9, 9, 3, '⭕']
+INFO:root:Ход в игре-2022-11-19 06:05:04.620173-884857325-Дарья-[1, '⭕', '⭕', 4, '❌', 6, 7, '❌', 9, 9, 4, '❌']
+INFO:root:Ход в игре-2022-11-19 06:05:05.847061-884857325-Дарья-[1, '⭕', '⭕', 4, '❌', '❌', 7, '❌', 9, 9, 5, '⭕']
+INFO:root:Ход в игре-2022-11-19 06:05:07.617102-884857325-Дарья-[1, '⭕', '⭕', 4, '❌', '❌', 7, '❌', '⭕', 9, 6, '❌']
+INFO:root:Конец игры-2022-11-19 06:05:09.361852-884857325-Дарья-[1, '⭕', '⭕', '❌', '❌', '❌', 7, '❌', '⭕', '❌', 7, '❌']
+INFO:root:Ход в игре-2022-11-19 06:05:10.144989-884857325-Дарья-[1, 2, 3, 4, 5, 6, '❌', 8, 9, 9, 1, '⭕']
+INFO:root:Ход в игре-2022-11-19 06:05:11.690134-884857325-Дарья-['⭕', 2, 3, 4, 5, 6, '❌', 8, 9, 9, 2, '❌']
+INFO:root:Ход в игре-2022-11-19 06:05:14.688812-884857325-Дарья-['⭕', 2, 3, '❌', 5, 6, '❌', 8, 9, 9, 3, '⭕']
+INFO:root:Ход в игре-2022-11-19 06:05:15.896788-884857325-Дарья-['⭕', '⭕', 3, '❌', 5, 6, '❌', 8, 9, 9, 4, '❌']
+INFO:root:Ход в игре-2022-11-19 06:05:16.458490-884857325-Дарья-['⭕', '⭕', '❌', '❌', 5, 6, '❌', 8, 9, 9, 5, '⭕']
+INFO:root:Ход в игре-2022-11-19 06:05:17.686633-884857325-Дарья-['⭕', '⭕', '❌', '❌', '⭕', 6, '❌', 8, 9, 9, 6, '❌']
+INFO:root:Ход в игре-2022-11-19 06:05:19.616288-884857325-Дарья-['⭕', '⭕', '❌', '❌', '⭕', 6, '❌', '❌', 9, 9, 7, '⭕']
+INFO:root:Ход в игре-2022-11-19 06:05:20.638561-884857325-Дарья-['⭕', '⭕', '❌', '❌', '⭕', '⭕', '❌', '❌', 9, 9, 8, '❌']
+INFO:root:Конец игры-2022-11-19 06:05:21.751553-884857325-Дарья-['⭕', '⭕', '❌', '❌', '⭕', '⭕', '❌', '❌', '❌', '❌', 9, '❌']
+INFO:root:Ход в игре-2022-11-19 06:05:24.278401-884857325-Дарья-[1, 2, 3, 4, 5, 6, 7, '❌', 9, 9, 1, '⭕']
+INFO:root:Ход в игре-2022-11-19 06:05:26.746413-884857325-Дарья-[1, 2, 3, 4, 5, '⭕', 7, '❌', 9, 9, 2, '❌']
+INFO:root:Ход в игре-2022-11-19 06:05:28.783412-884857325-Дарья-[1, 2, 3, 4, '❌', '⭕', 7, '❌', 9, 9, 3, '⭕']
+INFO:root:Ход в игре-2022-11-19 06:05:29.818233-884857325-Дарья-[1, '⭕', 3, 4, '❌', '⭕', 7, '❌', 9, 9, 4, '❌']
+INFO:root:Ход в игре-2022-11-19 06:05:31.556834-884857325-Дарья-['❌', '⭕', 3, 4, '❌', '⭕', 7, '❌', 9, 9, 5, '⭕']
+INFO:root:Ход в игре-2022-11-19 06:05:33.319869-884857325-Дарья-['❌', '⭕', 3, 4, '❌', '⭕', 7, '❌', '⭕', 9, 6, '❌']
+INFO:root:Ход в игре-2022-11-19 06:05:35.140569-884857325-Дарья-['❌', '⭕', '❌', 4, '❌', '⭕', 7, '❌', '⭕', 9, 7, '⭕']
+INFO:root:Ход в игре-2022-11-19 06:05:36.664812-884857325-Дарья-['❌', '⭕', '❌', '⭕', '❌', '⭕', 7, '❌', '⭕', 9, 8, '❌']
+INFO:root:Конец игры-2022-11-19 06:05:38.647445-884857325-Дарья-['❌', '⭕', '❌', '⭕', '❌', '⭕', '❌', '❌', '⭕', '❌', 9, '❌']
+INFO:root:Ход в игре-2022-11-19 06:05:45.277817-884857325-Дарья-[1, '❌', 3, 4, 5, 6, 7, 8, 9, 9, 1, '⭕']
+INFO:root:Ход в игре-2022-11-19 06:05:48.456900-884857325-Дарья-[1, '❌', 3, 4, 5, 6, 7, '⭕', 9, 9, 2, '❌']
+INFO:root:Ход в игре-2022-11-19 06:05:51.739644-884857325-Дарья-[1, '❌', 3, 4, '❌', 6, 7, '⭕', 9, 9, 3, '⭕']
+INFO:root:Ход в игре-2022-11-19 06:05:53.227382-884857325-Дарья-[1, '❌', 3, '⭕', '❌', 6, 7, '⭕', 9, 9, 4, '❌']
+INFO:root:Ход в игре-2022-11-19 06:05:54.791289-884857325-Дарья-[1, '❌', 3, '⭕', '❌', '❌', 7, '⭕', 9, 9, 5, '⭕']
+INFO:root:Ход в игре-2022-11-19 06:05:57.047254-884857325-Дарья-['⭕', '❌', 3, '⭕', '❌', '❌', 7, '⭕', 9, 9, 6, '❌']
+INFO:root:Ход в игре-2022-11-19 06:05:59.419421-884857325-Дарья-['⭕', '❌', 3, '⭕', '❌', '❌', '❌', '⭕', 9, 9, 7, '⭕']
+INFO:root:Ход в игре-2022-11-19 06:06:02.579212-884857325-Дарья-['⭕', '❌', 3, '⭕', '❌', '❌', '❌', '⭕', '⭕', 9, 8, '❌']
+INFO:root:Конец игры-2022-11-19 06:06:05.886202-884857325-Дарья-['⭕', '❌', '❌', '⭕', '❌', '❌', '❌', '⭕', '⭕', '❌', 9, '❌']
+INFO:root:Ход в игре-2022-11-19 06:06:07.082261-884857325-Дарья-[1, 2, '❌', 4, 5, 6, 7, 8, 9, 9, 1, '⭕']
+INFO:root:Ход в игре-2022-11-19 06:06:08.720286-884857325-Дарья-[1, 2, '❌', 4, 5, 6, 7, 8, '⭕', 9, 2, '❌']
+INFO:root:Ход в игре-2022-11-19 06:06:10.668975-884857325-Дарья-[1, 2, '❌', 4, 5, '❌', 7, 8, '⭕', 9, 3, '⭕']
+INFO:root:Ход в игре-2022-11-19 06:06:11.724689-884857325-Дарья-[1, 2, '❌', 4, '⭕', '❌', 7, 8, '⭕', 9, 4, '❌']
+INFO:root:Ход в игре-2022-11-19 06:06:13.635281-884857325-Дарья-['❌', 2, '❌', 4, '⭕', '❌', 7, 8, '⭕', 9, 5, '⭕']
+INFO:root:Ход в игре-2022-11-19 06:06:16.112075-884857325-Дарья-['❌', '⭕', '❌', 4, '⭕', '❌', 7, 8, '⭕', 9, 6, '❌']
+INFO:root:Ход в игре-2022-11-19 06:06:17.710535-884857325-Дарья-['❌', '⭕', '❌', 4, '⭕', '❌', 7, '❌', '⭕', 9, 7, '⭕']
+INFO:root:Ход в игре-2022-11-19 06:06:19.995097-884857325-Дарья-['❌', '⭕', '❌', 4, '⭕', '❌', '⭕', '❌', '⭕', 9, 8, '❌']
+INFO:root:Конец игры-2022-11-19 06:06:21.951427-884857325-Дарья-['❌', '⭕', '❌', '❌', '⭕', '❌', '⭕', '❌', '⭕', 0, 9, '❌']
+INFO:root:Ход в игре-2022-11-19 06:06:28.122936-884857325-Дарья-[1, 2, 3, 4, '❌', 6, 7, 8, 9, 9, 1, '⭕']
+INFO:root:Ход в игре-2022-11-19 06:06:29.091728-884857325-Дарья-[1, '⭕', 3, 4, '❌', 6, 7, 8, 9, 9, 2, '❌']
+INFO:root:Ход в игре-2022-11-19 06:06:30.365274-884857325-Дарья-[1, '⭕', '❌', 4, '❌', 6, 7, 8, 9, 9, 3, '⭕']
+INFO:root:Ход в игре-2022-11-19 06:06:31.252268-884857325-Дарья-['⭕', '⭕', '❌', 4, '❌', 6, 7, 8, 9, 9, 4, '❌']
+INFO:root:Ход в игре-2022-11-19 06:06:32.647610-884857325-Дарья-['⭕', '⭕', '❌', '❌', '❌', 6, 7, 8, 9, 9, 5, '⭕']
+INFO:root:Ход в игре-2022-11-19 06:06:34.667989-884857325-Дарья-['⭕', '⭕', '❌', '❌', '❌', '⭕', 7, 8, 9, 9, 6, '❌']
+INFO:root:Ход в игре-2022-11-19 06:06:35.961707-884857325-Дарья-['⭕', '⭕', '❌', '❌', '❌', '⭕', 7, 8, '❌', 9, 7, '⭕']
+INFO:root:Ход в игре-2022-11-19 06:06:38.003062-884857325-Дарья-['⭕', '⭕', '❌', '❌', '❌', '⭕', 7, '⭕', '❌', 9, 8, '❌']
+INFO:root:Конец игры-2022-11-19 06:06:38.960980-884857325-Дарья-['⭕', '⭕', '❌', '❌', '❌', '⭕', '❌', '⭕', '❌', '❌', 9, '❌']
+ERROR:aiogram.dispatcher.dispatcher:Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/usr/local/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/usr/local/lib/python3.9/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/client.py", line 1141, in __aenter__
+    self._resp = await self._coro
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/client.py", line 560, in _request
+    await resp.start(conn)
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/client_reqrep.py", line 914, in start
+    self._continue = None
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/helpers.py", line 720, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+WARNING:aiogram.dispatcher.dispatcher:Polling is stopped.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+ERROR:aiogram.dispatcher.dispatcher:Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/usr/local/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/usr/local/lib/python3.9/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/client.py", line 1141, in __aenter__
+    self._resp = await self._coro
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/client.py", line 560, in _request
+    await resp.start(conn)
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/client_reqrep.py", line 914, in start
+    self._continue = None
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/helpers.py", line 720, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+ERROR:aiogram.dispatcher.dispatcher:Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/connector.py", line 980, in _wrap_create_connection
+    return await self._loop.create_connection(*args, **kwargs)  # type: ignore[return-value]  # noqa
+  File "/usr/local/Cellar/python@3.9/3.9.13_1/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py", line 1090, in create_connection
+    transport, protocol = await self._create_connection_transport(
+  File "/usr/local/Cellar/python@3.9/3.9.13_1/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py", line 1120, in _create_connection_transport
+    await waiter
+  File "/usr/local/Cellar/python@3.9/3.9.13_1/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/sslproto.py", line 534, in data_received
+    ssldata, appdata = self._sslpipe.feed_ssldata(data)
+  File "/usr/local/Cellar/python@3.9/3.9.13_1/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/sslproto.py", line 188, in feed_ssldata
+    self._sslobj.do_handshake()
+  File "/usr/local/Cellar/python@3.9/3.9.13_1/Frameworks/Python.framework/Versions/3.9/lib/python3.9/ssl.py", line 945, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate is not yet valid (_ssl.c:1129)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/client.py", line 1141, in __aenter__
+    self._resp = await self._coro
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/client.py", line 536, in _request
+    conn = await self._connector.connect(
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/connector.py", line 540, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/connector.py", line 901, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/connector.py", line 1206, in _create_direct_connection
+    raise last_exc
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/connector.py", line 1175, in _create_direct_connection
+    transp, proto = await self._wrap_create_connection(
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/connector.py", line 982, in _wrap_create_connection
+    raise ClientConnectorCertificateError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorCertificateError: Cannot connect to host api.telegram.org:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate is not yet valid (_ssl.c:1129)')]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/usr/local/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/usr/local/lib/python3.9/site-packages/aiogram/bot/api.py", line 142, in make_request
+    raise exceptions.NetworkError(f"aiohttp client throws an error: {e.__class__.__name__}: {e}")
+aiogram.utils.exceptions.NetworkError: Aiohttp client throws an error: ClientConnectorCertificateError: Cannot connect to host api.telegram.org:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate is not yet valid (_ssl.c:1129)')]
+ERROR:aiogram.dispatcher.dispatcher:Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/connector.py", line 980, in _wrap_create_connection
+    return await self._loop.create_connection(*args, **kwargs)  # type: ignore[return-value]  # noqa
+  File "/usr/local/Cellar/python@3.9/3.9.13_1/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py", line 1090, in create_connection
+    transport, protocol = await self._create_connection_transport(
+  File "/usr/local/Cellar/python@3.9/3.9.13_1/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py", line 1120, in _create_connection_transport
+    await waiter
+  File "/usr/local/Cellar/python@3.9/3.9.13_1/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/sslproto.py", line 534, in data_received
+    ssldata, appdata = self._sslpipe.feed_ssldata(data)
+  File "/usr/local/Cellar/python@3.9/3.9.13_1/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/sslproto.py", line 188, in feed_ssldata
+    self._sslobj.do_handshake()
+  File "/usr/local/Cellar/python@3.9/3.9.13_1/Frameworks/Python.framework/Versions/3.9/lib/python3.9/ssl.py", line 945, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate is not yet valid (_ssl.c:1129)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/client.py", line 1141, in __aenter__
+    self._resp = await self._coro
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/client.py", line 536, in _request
+    conn = await self._connector.connect(
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/connector.py", line 540, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/connector.py", line 901, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/connector.py", line 1206, in _create_direct_connection
+    raise last_exc
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/connector.py", line 1175, in _create_direct_connection
+    transp, proto = await self._wrap_create_connection(
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/connector.py", line 982, in _wrap_create_connection
+    raise ClientConnectorCertificateError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorCertificateError: Cannot connect to host api.telegram.org:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate is not yet valid (_ssl.c:1129)')]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/usr/local/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/usr/local/lib/python3.9/site-packages/aiogram/bot/api.py", line 142, in make_request
+    raise exceptions.NetworkError(f"aiohttp client throws an error: {e.__class__.__name__}: {e}")
+aiogram.utils.exceptions.NetworkError: Aiohttp client throws an error: ClientConnectorCertificateError: Cannot connect to host api.telegram.org:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate is not yet valid (_ssl.c:1129)')]
+ERROR:aiogram.dispatcher.dispatcher:Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/connector.py", line 980, in _wrap_create_connection
+    return await self._loop.create_connection(*args, **kwargs)  # type: ignore[return-value]  # noqa
+  File "/usr/local/Cellar/python@3.9/3.9.13_1/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py", line 1090, in create_connection
+    transport, protocol = await self._create_connection_transport(
+  File "/usr/local/Cellar/python@3.9/3.9.13_1/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py", line 1120, in _create_connection_transport
+    await waiter
+  File "/usr/local/Cellar/python@3.9/3.9.13_1/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/sslproto.py", line 534, in data_received
+    ssldata, appdata = self._sslpipe.feed_ssldata(data)
+  File "/usr/local/Cellar/python@3.9/3.9.13_1/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/sslproto.py", line 188, in feed_ssldata
+    self._sslobj.do_handshake()
+  File "/usr/local/Cellar/python@3.9/3.9.13_1/Frameworks/Python.framework/Versions/3.9/lib/python3.9/ssl.py", line 945, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate is not yet valid (_ssl.c:1129)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/client.py", line 1141, in __aenter__
+    self._resp = await self._coro
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/client.py", line 536, in _request
+    conn = await self._connector.connect(
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/connector.py", line 540, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/connector.py", line 901, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/connector.py", line 1206, in _create_direct_connection
+    raise last_exc
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/connector.py", line 1175, in _create_direct_connection
+    transp, proto = await self._wrap_create_connection(
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/connector.py", line 982, in _wrap_create_connection
+    raise ClientConnectorCertificateError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorCertificateError: Cannot connect to host api.telegram.org:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate is not yet valid (_ssl.c:1129)')]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/usr/local/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/usr/local/lib/python3.9/site-packages/aiogram/bot/api.py", line 142, in make_request
+    raise exceptions.NetworkError(f"aiohttp client throws an error: {e.__class__.__name__}: {e}")
+aiogram.utils.exceptions.NetworkError: Aiohttp client throws an error: ClientConnectorCertificateError: Cannot connect to host api.telegram.org:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate is not yet valid (_ssl.c:1129)')]
+ERROR:aiogram.dispatcher.dispatcher:Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/connector.py", line 980, in _wrap_create_connection
+    return await self._loop.create_connection(*args, **kwargs)  # type: ignore[return-value]  # noqa
+  File "/usr/local/Cellar/python@3.9/3.9.13_1/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py", line 1090, in create_connection
+    transport, protocol = await self._create_connection_transport(
+  File "/usr/local/Cellar/python@3.9/3.9.13_1/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py", line 1120, in _create_connection_transport
+    await waiter
+  File "/usr/local/Cellar/python@3.9/3.9.13_1/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/sslproto.py", line 534, in data_received
+    ssldata, appdata = self._sslpipe.feed_ssldata(data)
+  File "/usr/local/Cellar/python@3.9/3.9.13_1/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/sslproto.py", line 188, in feed_ssldata
+    self._sslobj.do_handshake()
+  File "/usr/local/Cellar/python@3.9/3.9.13_1/Frameworks/Python.framework/Versions/3.9/lib/python3.9/ssl.py", line 945, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate is not yet valid (_ssl.c:1129)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/client.py", line 1141, in __aenter__
+    self._resp = await self._coro
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/client.py", line 536, in _request
+    conn = await self._connector.connect(
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/connector.py", line 540, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/connector.py", line 901, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/connector.py", line 1206, in _create_direct_connection
+    raise last_exc
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/connector.py", line 1175, in _create_direct_connection
+    transp, proto = await self._wrap_create_connection(
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/connector.py", line 982, in _wrap_create_connection
+    raise ClientConnectorCertificateError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorCertificateError: Cannot connect to host api.telegram.org:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate is not yet valid (_ssl.c:1129)')]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/usr/local/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/usr/local/lib/python3.9/site-packages/aiogram/bot/api.py", line 142, in make_request
+    raise exceptions.NetworkError(f"aiohttp client throws an error: {e.__class__.__name__}: {e}")
+aiogram.utils.exceptions.NetworkError: Aiohttp client throws an error: ClientConnectorCertificateError: Cannot connect to host api.telegram.org:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate is not yet valid (_ssl.c:1129)')]
+ERROR:aiogram.dispatcher.dispatcher:Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/connector.py", line 980, in _wrap_create_connection
+    return await self._loop.create_connection(*args, **kwargs)  # type: ignore[return-value]  # noqa
+  File "/usr/local/Cellar/python@3.9/3.9.13_1/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py", line 1090, in create_connection
+    transport, protocol = await self._create_connection_transport(
+  File "/usr/local/Cellar/python@3.9/3.9.13_1/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py", line 1120, in _create_connection_transport
+    await waiter
+  File "/usr/local/Cellar/python@3.9/3.9.13_1/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/sslproto.py", line 534, in data_received
+    ssldata, appdata = self._sslpipe.feed_ssldata(data)
+  File "/usr/local/Cellar/python@3.9/3.9.13_1/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/sslproto.py", line 188, in feed_ssldata
+    self._sslobj.do_handshake()
+  File "/usr/local/Cellar/python@3.9/3.9.13_1/Frameworks/Python.framework/Versions/3.9/lib/python3.9/ssl.py", line 945, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate is not yet valid (_ssl.c:1129)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/client.py", line 1141, in __aenter__
+    self._resp = await self._coro
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/client.py", line 536, in _request
+    conn = await self._connector.connect(
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/connector.py", line 540, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/connector.py", line 901, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/connector.py", line 1206, in _create_direct_connection
+    raise last_exc
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/connector.py", line 1175, in _create_direct_connection
+    transp, proto = await self._wrap_create_connection(
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/connector.py", line 982, in _wrap_create_connection
+    raise ClientConnectorCertificateError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorCertificateError: Cannot connect to host api.telegram.org:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate is not yet valid (_ssl.c:1129)')]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/usr/local/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/usr/local/lib/python3.9/site-packages/aiogram/bot/api.py", line 142, in make_request
+    raise exceptions.NetworkError(f"aiohttp client throws an error: {e.__class__.__name__}: {e}")
+aiogram.utils.exceptions.NetworkError: Aiohttp client throws an error: ClientConnectorCertificateError: Cannot connect to host api.telegram.org:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate is not yet valid (_ssl.c:1129)')]
+ERROR:aiogram.dispatcher.dispatcher:Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/connector.py", line 980, in _wrap_create_connection
+    return await self._loop.create_connection(*args, **kwargs)  # type: ignore[return-value]  # noqa
+  File "/usr/local/Cellar/python@3.9/3.9.13_1/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py", line 1090, in create_connection
+    transport, protocol = await self._create_connection_transport(
+  File "/usr/local/Cellar/python@3.9/3.9.13_1/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py", line 1120, in _create_connection_transport
+    await waiter
+  File "/usr/local/Cellar/python@3.9/3.9.13_1/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/sslproto.py", line 534, in data_received
+    ssldata, appdata = self._sslpipe.feed_ssldata(data)
+  File "/usr/local/Cellar/python@3.9/3.9.13_1/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/sslproto.py", line 188, in feed_ssldata
+    self._sslobj.do_handshake()
+  File "/usr/local/Cellar/python@3.9/3.9.13_1/Frameworks/Python.framework/Versions/3.9/lib/python3.9/ssl.py", line 945, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate is not yet valid (_ssl.c:1129)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/client.py", line 1141, in __aenter__
+    self._resp = await self._coro
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/client.py", line 536, in _request
+    conn = await self._connector.connect(
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/connector.py", line 540, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/connector.py", line 901, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/connector.py", line 1206, in _create_direct_connection
+    raise last_exc
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/connector.py", line 1175, in _create_direct_connection
+    transp, proto = await self._wrap_create_connection(
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/connector.py", line 982, in _wrap_create_connection
+    raise ClientConnectorCertificateError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorCertificateError: Cannot connect to host api.telegram.org:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate is not yet valid (_ssl.c:1129)')]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/usr/local/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/usr/local/lib/python3.9/site-packages/aiogram/bot/api.py", line 142, in make_request
+    raise exceptions.NetworkError(f"aiohttp client throws an error: {e.__class__.__name__}: {e}")
+aiogram.utils.exceptions.NetworkError: Aiohttp client throws an error: ClientConnectorCertificateError: Cannot connect to host api.telegram.org:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate is not yet valid (_ssl.c:1129)')]
+ERROR:aiogram.dispatcher.dispatcher:Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/connector.py", line 980, in _wrap_create_connection
+    return await self._loop.create_connection(*args, **kwargs)  # type: ignore[return-value]  # noqa
+  File "/usr/local/Cellar/python@3.9/3.9.13_1/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py", line 1090, in create_connection
+    transport, protocol = await self._create_connection_transport(
+  File "/usr/local/Cellar/python@3.9/3.9.13_1/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py", line 1120, in _create_connection_transport
+    await waiter
+  File "/usr/local/Cellar/python@3.9/3.9.13_1/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/sslproto.py", line 534, in data_received
+    ssldata, appdata = self._sslpipe.feed_ssldata(data)
+  File "/usr/local/Cellar/python@3.9/3.9.13_1/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/sslproto.py", line 188, in feed_ssldata
+    self._sslobj.do_handshake()
+  File "/usr/local/Cellar/python@3.9/3.9.13_1/Frameworks/Python.framework/Versions/3.9/lib/python3.9/ssl.py", line 945, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate is not yet valid (_ssl.c:1129)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/client.py", line 1141, in __aenter__
+    self._resp = await self._coro
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/client.py", line 536, in _request
+    conn = await self._connector.connect(
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/connector.py", line 540, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/connector.py", line 901, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/connector.py", line 1206, in _create_direct_connection
+    raise last_exc
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/connector.py", line 1175, in _create_direct_connection
+    transp, proto = await self._wrap_create_connection(
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/connector.py", line 982, in _wrap_create_connection
+    raise ClientConnectorCertificateError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorCertificateError: Cannot connect to host api.telegram.org:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate is not yet valid (_ssl.c:1129)')]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/usr/local/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/usr/local/lib/python3.9/site-packages/aiogram/bot/api.py", line 142, in make_request
+    raise exceptions.NetworkError(f"aiohttp client throws an error: {e.__class__.__name__}: {e}")
+aiogram.utils.exceptions.NetworkError: Aiohttp client throws an error: ClientConnectorCertificateError: Cannot connect to host api.telegram.org:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate is not yet valid (_ssl.c:1129)')]
+ERROR:aiogram.dispatcher.dispatcher:Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/connector.py", line 980, in _wrap_create_connection
+    return await self._loop.create_connection(*args, **kwargs)  # type: ignore[return-value]  # noqa
+  File "/usr/local/Cellar/python@3.9/3.9.13_1/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py", line 1090, in create_connection
+    transport, protocol = await self._create_connection_transport(
+  File "/usr/local/Cellar/python@3.9/3.9.13_1/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py", line 1120, in _create_connection_transport
+    await waiter
+  File "/usr/local/Cellar/python@3.9/3.9.13_1/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/sslproto.py", line 534, in data_received
+    ssldata, appdata = self._sslpipe.feed_ssldata(data)
+  File "/usr/local/Cellar/python@3.9/3.9.13_1/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/sslproto.py", line 188, in feed_ssldata
+    self._sslobj.do_handshake()
+  File "/usr/local/Cellar/python@3.9/3.9.13_1/Frameworks/Python.framework/Versions/3.9/lib/python3.9/ssl.py", line 945, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate is not yet valid (_ssl.c:1129)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/client.py", line 1141, in __aenter__
+    self._resp = await self._coro
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/client.py", line 536, in _request
+    conn = await self._connector.connect(
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/connector.py", line 540, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/connector.py", line 901, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/connector.py", line 1206, in _create_direct_connection
+    raise last_exc
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/connector.py", line 1175, in _create_direct_connection
+    transp, proto = await self._wrap_create_connection(
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/connector.py", line 982, in _wrap_create_connection
+    raise ClientConnectorCertificateError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorCertificateError: Cannot connect to host api.telegram.org:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate is not yet valid (_ssl.c:1129)')]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/usr/local/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/usr/local/lib/python3.9/site-packages/aiogram/bot/api.py", line 142, in make_request
+    raise exceptions.NetworkError(f"aiohttp client throws an error: {e.__class__.__name__}: {e}")
+aiogram.utils.exceptions.NetworkError: Aiohttp client throws an error: ClientConnectorCertificateError: Cannot connect to host api.telegram.org:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate is not yet valid (_ssl.c:1129)')]
+ERROR:aiogram.dispatcher.dispatcher:Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/connector.py", line 980, in _wrap_create_connection
+    return await self._loop.create_connection(*args, **kwargs)  # type: ignore[return-value]  # noqa
+  File "/usr/local/Cellar/python@3.9/3.9.13_1/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py", line 1090, in create_connection
+    transport, protocol = await self._create_connection_transport(
+  File "/usr/local/Cellar/python@3.9/3.9.13_1/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py", line 1120, in _create_connection_transport
+    await waiter
+  File "/usr/local/Cellar/python@3.9/3.9.13_1/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/sslproto.py", line 534, in data_received
+    ssldata, appdata = self._sslpipe.feed_ssldata(data)
+  File "/usr/local/Cellar/python@3.9/3.9.13_1/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/sslproto.py", line 188, in feed_ssldata
+    self._sslobj.do_handshake()
+  File "/usr/local/Cellar/python@3.9/3.9.13_1/Frameworks/Python.framework/Versions/3.9/lib/python3.9/ssl.py", line 945, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate is not yet valid (_ssl.c:1129)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/client.py", line 1141, in __aenter__
+    self._resp = await self._coro
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/client.py", line 536, in _request
+    conn = await self._connector.connect(
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/connector.py", line 540, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/connector.py", line 901, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/connector.py", line 1206, in _create_direct_connection
+    raise last_exc
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/connector.py", line 1175, in _create_direct_connection
+    transp, proto = await self._wrap_create_connection(
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/connector.py", line 982, in _wrap_create_connection
+    raise ClientConnectorCertificateError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorCertificateError: Cannot connect to host api.telegram.org:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate is not yet valid (_ssl.c:1129)')]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/usr/local/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/usr/local/lib/python3.9/site-packages/aiogram/bot/api.py", line 142, in make_request
+    raise exceptions.NetworkError(f"aiohttp client throws an error: {e.__class__.__name__}: {e}")
+aiogram.utils.exceptions.NetworkError: Aiohttp client throws an error: ClientConnectorCertificateError: Cannot connect to host api.telegram.org:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate is not yet valid (_ssl.c:1129)')]
+WARNING:aiogram.dispatcher.dispatcher:Polling is stopped.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+ERROR:aiogram.dispatcher.dispatcher:Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/usr/local/lib/python3.9/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/usr/local/lib/python3.9/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/client.py", line 1141, in __aenter__
+    self._resp = await self._coro
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/client.py", line 560, in _request
+    await resp.start(conn)
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/client_reqrep.py", line 914, in start
+    self._continue = None
+  File "/usr/local/lib/python3.9/site-packages/aiohttp/helpers.py", line 720, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+WARNING:aiogram.dispatcher.dispatcher:Polling is stopped.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-71' coro=<Dispatcher._process_polling_updates() done, defined at /usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=BadRequest("Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard")>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/storm/Documents/Progerstvo/MyPython/HomeWork/Hw9/handlers.py", line 38, in calculator
+    await bot.send_message(chat_id=msg.chat.id, text='Добро пожаловать в калькулятор', reply_markup=calc_kb)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/bot/bot.py", line 346, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/usr/local/lib/python3.9/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/usr/local/lib/python3.9/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/utils/exceptions.py", line 141, in detect
+    raise cls(description)
+aiogram.utils.exceptions.BadRequest: Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard
+WARNING:aiogram.dispatcher.dispatcher:Polling is stopped.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+WARNING:aiogram.dispatcher.dispatcher:Polling is stopped.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:root:Начало игры-2022-11-20 22:55:14.858882-536297652-Andrey-[1, 2, 3, 4, 5, 6, 7, 8, 9, 9, 0, '❌']
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-14' coro=<Dispatcher._process_polling_updates() done, defined at /usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=BadRequest("Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard")>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/storm/Documents/Progerstvo/MyPython/HomeWork/Hw9/handlers.py", line 38, in calculator
+    await bot.send_message(chat_id=msg.chat.id, text='Добро пожаловать в калькулятор', reply_markup=calc_kb)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/bot/bot.py", line 346, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/usr/local/lib/python3.9/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/usr/local/lib/python3.9/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/utils/exceptions.py", line 141, in detect
+    raise cls(description)
+aiogram.utils.exceptions.BadRequest: Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard
+WARNING:aiogram.dispatcher.dispatcher:Polling is stopped.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:root:Ход в игре-2022-11-20 22:56:34.211125-536297652-Andrey-[1, 2, 3, 4, 5, 6, '❌', 8, 9, 9, 1, '⭕']
+WARNING:aiogram.dispatcher.dispatcher:Polling is stopped.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+WARNING:aiogram.dispatcher.dispatcher:Polling is stopped.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+WARNING:aiogram.dispatcher.dispatcher:Polling is stopped.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:root:Начало игры-2022-11-20 23:07:38.591687-536297652-Andrey-[1, 2, 3, 4, 5, 6, 7, 8, 9, 9, 0, '❌']
+WARNING:aiogram.dispatcher.dispatcher:Polling is stopped.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+WARNING:aiogram.dispatcher.dispatcher:Polling is stopped.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:root:Начало игры-2022-11-20 23:08:45.908348-536297652-Andrey-[1, 2, 3, 4, 5, 6, 7, 8, 9, 9, 0, '❌']
+INFO:root:Ход в игре-2022-11-20 23:08:47.002812-536297652-Andrey-['❌', 2, 3, 4, 5, 6, 7, 8, 9, 9, 1, '⭕']
+INFO:root:Ход в игре-2022-11-20 23:08:47.833586-536297652-Andrey-['❌', 2, 3, 4, '⭕', 6, 7, 8, 9, 9, 2, '❌']
+INFO:root:Ход в игре-2022-11-20 23:08:48.359044-536297652-Andrey-['❌', 2, 3, 4, '⭕', '❌', 7, 8, 9, 9, 3, '⭕']
+INFO:root:Ход в игре-2022-11-20 23:08:49.328926-536297652-Andrey-['❌', '⭕', 3, 4, '⭕', '❌', 7, 8, 9, 9, 4, '❌']
+INFO:root:Ход в игре-2022-11-20 23:08:53.741038-536297652-Andrey-['❌', '⭕', 3, 4, '⭕', '❌', '❌', 8, 9, 9, 5, '⭕']
+INFO:root:Конец игры-2022-11-20 23:08:54.212968-536297652-Andrey-['❌', '⭕', 3, 4, '⭕', '❌', '❌', '⭕', 9, '⭕', 6, '⭕']
+INFO:root:Ход в игре-2022-11-20 23:08:55.722489-536297652-Andrey-[1, 2, 3, '❌', 5, 6, 7, 8, 9, 9, 1, '⭕']
+INFO:root:Ход в игре-2022-11-20 23:08:56.658436-536297652-Andrey-['⭕', 2, 3, '❌', 5, 6, 7, 8, 9, 9, 2, '❌']
+INFO:root:Ход в игре-2022-11-20 23:08:57.192311-536297652-Andrey-['⭕', 2, 3, '❌', '❌', 6, 7, 8, 9, 9, 3, '⭕']
+INFO:root:Ход в игре-2022-11-20 23:08:57.744337-536297652-Andrey-['⭕', 2, 3, '❌', '❌', 6, 7, 8, '⭕', 9, 4, '❌']
+WARNING:aiogram.dispatcher.dispatcher:Polling is stopped.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:root:Ход в игре-2022-11-20 23:09:44.843002-536297652-Andrey-['⭕', 2, 3, '❌', '❌', 6, '❌', 8, '⭕', 9, 5, '⭕']
+INFO:root:Ход в игре-2022-11-20 23:09:45.523161-536297652-Andrey-['⭕', 2, 3, '❌', '❌', 6, '❌', '⭕', '⭕', 9, 6, '❌']
+INFO:root:Конец игры-2022-11-20 23:09:45.899189-536297652-Andrey-['⭕', 2, 3, '❌', '❌', '❌', '❌', '⭕', '⭕', '❌', 7, '❌']
+INFO:root:Ход в игре-2022-11-20 23:09:46.771619-536297652-Andrey-[1, 2, '❌', 4, 5, 6, 7, 8, 9, 9, 1, '⭕']
+INFO:root:Неверный ход-2022-11-20 23:09:46.893236-536297652-Andrey-⭕)
+WARNING:aiogram.dispatcher.dispatcher:Polling is stopped.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-19' coro=<Dispatcher._process_polling_updates() done, defined at /usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=TypeError('can only join an iterable')>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/storm/Documents/Progerstvo/MyPython/HomeWork/Hw9/handlers.py", line 48, in callback_func
+    value = export_calc(u_id)
+  File "/Users/storm/Documents/Progerstvo/MyPython/HomeWork/Hw9/database_control.py", line 51, in export_calc
+    value = ''.join(cursor.fetchone())
+TypeError: can only join an iterable
+WARNING:aiogram.dispatcher.dispatcher:Polling is stopped.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-6' coro=<Dispatcher._process_polling_updates() done, defined at /usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=AttributeError("'Message' object has no attribute 'messege_id'")>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/storm/Documents/Progerstvo/MyPython/HomeWork/Hw9/handlers.py", line 66, in callback_func
+    message_id=query.message.messege_id, reply_markup=calc_kb)
+AttributeError: 'Message' object has no attribute 'messege_id'
+WARNING:aiogram.dispatcher.dispatcher:Polling is stopped.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+WARNING:aiogram.dispatcher.dispatcher:Polling is stopped.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-6' coro=<Dispatcher._process_polling_updates() done, defined at /usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=OperationalError('table datas has 3 columns but 7 values were supplied')>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/storm/Documents/Progerstvo/MyPython/HomeWork/Hw9/handlers.py", line 68, in callback_func
+    data_change_calc(u_id, u_name, value)
+  File "/Users/storm/Documents/Progerstvo/MyPython/HomeWork/Hw9/database_control.py", line 60, in data_change_calc
+    cursor.execute(f'REPLACE INTO datas VALUES {value}')
+sqlite3.OperationalError: table datas has 3 columns but 7 values were supplied
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-11' coro=<Dispatcher._process_polling_updates() done, defined at /usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=OperationalError('table datas has 3 columns but 7 values were supplied')>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/storm/Documents/Progerstvo/MyPython/HomeWork/Hw9/handlers.py", line 68, in callback_func
+    data_change_calc(u_id, u_name, value)
+  File "/Users/storm/Documents/Progerstvo/MyPython/HomeWork/Hw9/database_control.py", line 60, in data_change_calc
+    cursor.execute(f'REPLACE INTO datas VALUES {value}')
+sqlite3.OperationalError: table datas has 3 columns but 7 values were supplied
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-16' coro=<Dispatcher._process_polling_updates() done, defined at /usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=OperationalError('table datas has 3 columns but 7 values were supplied')>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/storm/Documents/Progerstvo/MyPython/HomeWork/Hw9/handlers.py", line 68, in callback_func
+    data_change_calc(u_id, u_name, value)
+  File "/Users/storm/Documents/Progerstvo/MyPython/HomeWork/Hw9/database_control.py", line 60, in data_change_calc
+    cursor.execute(f'REPLACE INTO datas VALUES {value}')
+sqlite3.OperationalError: table datas has 3 columns but 7 values were supplied
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-21' coro=<Dispatcher._process_polling_updates() done, defined at /usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=OperationalError('table datas has 3 columns but 2 values were supplied')>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/storm/Documents/Progerstvo/MyPython/HomeWork/Hw9/handlers.py", line 68, in callback_func
+    data_change_calc(u_id, u_name, value)
+  File "/Users/storm/Documents/Progerstvo/MyPython/HomeWork/Hw9/database_control.py", line 60, in data_change_calc
+    cursor.execute(f'REPLACE INTO datas VALUES {value}')
+sqlite3.OperationalError: table datas has 3 columns but 2 values were supplied
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-27' coro=<Dispatcher._process_polling_updates() done, defined at /usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=OperationalError('table datas has 3 columns but 7 values were supplied')>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/storm/Documents/Progerstvo/MyPython/HomeWork/Hw9/handlers.py", line 68, in callback_func
+    data_change_calc(u_id, u_name, value)
+  File "/Users/storm/Documents/Progerstvo/MyPython/HomeWork/Hw9/database_control.py", line 60, in data_change_calc
+    cursor.execute(f'REPLACE INTO datas VALUES {value}')
+sqlite3.OperationalError: table datas has 3 columns but 7 values were supplied
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-32' coro=<Dispatcher._process_polling_updates() done, defined at /usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=OperationalError('table datas has 3 columns but 7 values were supplied')>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/storm/Documents/Progerstvo/MyPython/HomeWork/Hw9/handlers.py", line 68, in callback_func
+    data_change_calc(u_id, u_name, value)
+  File "/Users/storm/Documents/Progerstvo/MyPython/HomeWork/Hw9/database_control.py", line 60, in data_change_calc
+    cursor.execute(f'REPLACE INTO datas VALUES {value}')
+sqlite3.OperationalError: table datas has 3 columns but 7 values were supplied
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-37' coro=<Dispatcher._process_polling_updates() done, defined at /usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=MessageNotModified('Message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message')>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/storm/Documents/Progerstvo/MyPython/HomeWork/Hw9/handlers.py", line 66, in callback_func
+    await bot.edit_message_text(text=f'{value}', chat_id=query.message.chat.id,
+  File "/usr/local/lib/python3.9/site-packages/aiogram/bot/bot.py", line 2990, in edit_message_text
+    result = await self.request(api.Methods.EDIT_MESSAGE_TEXT, payload)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/usr/local/lib/python3.9/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/usr/local/lib/python3.9/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.MessageNotModified: Message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-42' coro=<Dispatcher._process_polling_updates() done, defined at /usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=OperationalError('table datas has 3 columns but 7 values were supplied')>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/storm/Documents/Progerstvo/MyPython/HomeWork/Hw9/handlers.py", line 68, in callback_func
+    data_change_calc(u_id, u_name, value)
+  File "/Users/storm/Documents/Progerstvo/MyPython/HomeWork/Hw9/database_control.py", line 60, in data_change_calc
+    cursor.execute(f'REPLACE INTO datas VALUES {value}')
+sqlite3.OperationalError: table datas has 3 columns but 7 values were supplied
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-55' coro=<Dispatcher._process_polling_updates() done, defined at /usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=OperationalError('table datas has 3 columns but 2 values were supplied')>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/storm/Documents/Progerstvo/MyPython/HomeWork/Hw9/handlers.py", line 38, in calculator
+    data_change_calc(msg.from_user.id, msg.from_user.first_name,value)
+  File "/Users/storm/Documents/Progerstvo/MyPython/HomeWork/Hw9/database_control.py", line 60, in data_change_calc
+    cursor.execute(f'REPLACE INTO datas VALUES {value}')
+sqlite3.OperationalError: table datas has 3 columns but 2 values were supplied
+WARNING:aiogram.dispatcher.dispatcher:Polling is stopped.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-6' coro=<Dispatcher._process_polling_updates() done, defined at /usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=OperationalError('no such column: Andrey')>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/storm/Documents/Progerstvo/MyPython/HomeWork/Hw9/handlers.py", line 38, in calculator
+    data_change_calc(msg.from_user.id, msg.from_user.first_name,value)
+  File "/Users/storm/Documents/Progerstvo/MyPython/HomeWork/Hw9/database_control.py", line 60, in data_change_calc
+    cursor.execute(f'REPLACE INTO datas VALUES ({user_id},{user_name},{value})')
+sqlite3.OperationalError: no such column: Andrey
+WARNING:aiogram.dispatcher.dispatcher:Polling is stopped.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-8' coro=<Dispatcher._process_polling_updates() done, defined at /usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=OperationalError('near ")": syntax error')>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/storm/Documents/Progerstvo/MyPython/HomeWork/Hw9/handlers.py", line 38, in calculator
+    data_change_calc(msg.from_user.id, msg.from_user.first_name,value)
+  File "/Users/storm/Documents/Progerstvo/MyPython/HomeWork/Hw9/database_control.py", line 61, in data_change_calc
+    cursor.execute(f'REPLACE INTO datas VALUES {lst})')
+sqlite3.OperationalError: near ")": syntax error
+WARNING:aiogram.dispatcher.dispatcher:Polling is stopped.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-16' coro=<Dispatcher._process_polling_updates() done, defined at /usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=OperationalError('unrecognized token: "\\"')>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/storm/Documents/Progerstvo/MyPython/HomeWork/Hw9/handlers.py", line 68, in callback_func
+    data_change_calc(u_id, u_name, value)
+  File "/Users/storm/Documents/Progerstvo/MyPython/HomeWork/Hw9/database_control.py", line 61, in data_change_calc
+    cursor.execute(f'REPLACE INTO datas VALUES {lst}')
+sqlite3.OperationalError: unrecognized token: "\"
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-21' coro=<Dispatcher._process_polling_updates() done, defined at /usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=MessageNotModified('Message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message')>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/storm/Documents/Progerstvo/MyPython/HomeWork/Hw9/handlers.py", line 66, in callback_func
+    await bot.edit_message_text(text=f'{value}', chat_id=query.message.chat.id,
+  File "/usr/local/lib/python3.9/site-packages/aiogram/bot/bot.py", line 2990, in edit_message_text
+    result = await self.request(api.Methods.EDIT_MESSAGE_TEXT, payload)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/usr/local/lib/python3.9/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/usr/local/lib/python3.9/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.MessageNotModified: Message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-28' coro=<Dispatcher._process_polling_updates() done, defined at /usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=OperationalError('unrecognized token: "\\"')>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/storm/Documents/Progerstvo/MyPython/HomeWork/Hw9/handlers.py", line 68, in callback_func
+    data_change_calc(u_id, u_name, value)
+  File "/Users/storm/Documents/Progerstvo/MyPython/HomeWork/Hw9/database_control.py", line 61, in data_change_calc
+    cursor.execute(f'REPLACE INTO datas VALUES {lst}')
+sqlite3.OperationalError: unrecognized token: "\"
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-33' coro=<Dispatcher._process_polling_updates() done, defined at /usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=OperationalError('unrecognized token: "\\"')>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/storm/Documents/Progerstvo/MyPython/HomeWork/Hw9/handlers.py", line 68, in callback_func
+    data_change_calc(u_id, u_name, value)
+  File "/Users/storm/Documents/Progerstvo/MyPython/HomeWork/Hw9/database_control.py", line 61, in data_change_calc
+    cursor.execute(f'REPLACE INTO datas VALUES {lst}')
+sqlite3.OperationalError: unrecognized token: "\"
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-38' coro=<Dispatcher._process_polling_updates() done, defined at /usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=OperationalError('unrecognized token: "\\"')>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/storm/Documents/Progerstvo/MyPython/HomeWork/Hw9/handlers.py", line 68, in callback_func
+    data_change_calc(u_id, u_name, value)
+  File "/Users/storm/Documents/Progerstvo/MyPython/HomeWork/Hw9/database_control.py", line 61, in data_change_calc
+    cursor.execute(f'REPLACE INTO datas VALUES {lst}')
+sqlite3.OperationalError: unrecognized token: "\"
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-43' coro=<Dispatcher._process_polling_updates() done, defined at /usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=OperationalError('unrecognized token: "\\"')>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/storm/Documents/Progerstvo/MyPython/HomeWork/Hw9/handlers.py", line 68, in callback_func
+    data_change_calc(u_id, u_name, value)
+  File "/Users/storm/Documents/Progerstvo/MyPython/HomeWork/Hw9/database_control.py", line 61, in data_change_calc
+    cursor.execute(f'REPLACE INTO datas VALUES {lst}')
+sqlite3.OperationalError: unrecognized token: "\"
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-48' coro=<Dispatcher._process_polling_updates() done, defined at /usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=OperationalError('unrecognized token: "\\"')>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/storm/Documents/Progerstvo/MyPython/HomeWork/Hw9/handlers.py", line 68, in callback_func
+    data_change_calc(u_id, u_name, value)
+  File "/Users/storm/Documents/Progerstvo/MyPython/HomeWork/Hw9/database_control.py", line 61, in data_change_calc
+    cursor.execute(f'REPLACE INTO datas VALUES {lst}')
+sqlite3.OperationalError: unrecognized token: "\"
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-74' coro=<Dispatcher._process_polling_updates() done, defined at /usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=OperationalError('unrecognized token: "\\"')>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/storm/Documents/Progerstvo/MyPython/HomeWork/Hw9/handlers.py", line 68, in callback_func
+    data_change_calc(u_id, u_name, value)
+  File "/Users/storm/Documents/Progerstvo/MyPython/HomeWork/Hw9/database_control.py", line 61, in data_change_calc
+    lst = tuple(lst)
+sqlite3.OperationalError: unrecognized token: "\"
+WARNING:aiogram.dispatcher.dispatcher:Polling is stopped.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-6' coro=<Dispatcher._process_polling_updates() done, defined at /usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=TypeError('can only concatenate tuple (not "str") to tuple')>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/storm/Documents/Progerstvo/MyPython/HomeWork/Hw9/handlers.py", line 61, in callback_func
+    else: value += data
+TypeError: can only concatenate tuple (not "str") to tuple
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-10' coro=<Dispatcher._process_polling_updates() done, defined at /usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=TypeError('can only concatenate tuple (not "str") to tuple')>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/storm/Documents/Progerstvo/MyPython/HomeWork/Hw9/handlers.py", line 61, in callback_func
+    else: value += data
+TypeError: can only concatenate tuple (not "str") to tuple
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-14' coro=<Dispatcher._process_polling_updates() done, defined at /usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=TypeError('can only concatenate tuple (not "str") to tuple')>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/storm/Documents/Progerstvo/MyPython/HomeWork/Hw9/handlers.py", line 61, in callback_func
+    else: value += data
+TypeError: can only concatenate tuple (not "str") to tuple
+WARNING:aiogram.dispatcher.dispatcher:Polling is stopped.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-81' coro=<Dispatcher._process_polling_updates() done, defined at /usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=NameError("name 'Ошибка23' is not defined")>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/storm/Documents/Progerstvo/MyPython/HomeWork/Hw9/handlers.py", line 58, in callback_func
+    value = str(eval(value))
+  File "<string>", line 1, in <module>
+NameError: name 'Ошибка23' is not defined
+WARNING:aiogram.dispatcher.dispatcher:Polling is stopped.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+WARNING:aiogram.dispatcher.dispatcher:Polling is stopped.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-375' coro=<Dispatcher._process_polling_updates() done, defined at /usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=MessageNotModified('Message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message')>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/storm/Documents/Progerstvo/MyPython/HomeWork/Hw9/handlers.py", line 70, in callback_func
+    await bot.edit_message_text(text=f'{value}', chat_id=query.message.chat.id,
+  File "/usr/local/lib/python3.9/site-packages/aiogram/bot/bot.py", line 2990, in edit_message_text
+    result = await self.request(api.Methods.EDIT_MESSAGE_TEXT, payload)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/usr/local/lib/python3.9/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/usr/local/lib/python3.9/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.MessageNotModified: Message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-390' coro=<Dispatcher._process_polling_updates() done, defined at /usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=SyntaxError('invalid syntax', ('<string>', 1, 1, '/0'))>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/storm/Documents/Progerstvo/MyPython/HomeWork/Hw9/handlers.py", line 58, in callback_func
+    value = str(eval(value))
+  File "<string>", line 1
+    /0
+    ^
+SyntaxError: invalid syntax
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-405' coro=<Dispatcher._process_polling_updates() done, defined at /usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=SyntaxError('invalid syntax', ('<string>', 1, 1, '/052'))>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/storm/Documents/Progerstvo/MyPython/HomeWork/Hw9/handlers.py", line 58, in callback_func
+    value = str(eval(value))
+  File "<string>", line 1
+    /052
+    ^
+SyntaxError: invalid syntax
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-431' coro=<Dispatcher._process_polling_updates() done, defined at /usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=SyntaxError('invalid syntax', ('<string>', 1, 1, '/05269/5'))>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/storm/Documents/Progerstvo/MyPython/HomeWork/Hw9/handlers.py", line 58, in callback_func
+    value = str(eval(value))
+  File "<string>", line 1
+    /05269/5
+    ^
+SyntaxError: invalid syntax
+WARNING:aiogram.dispatcher.dispatcher:Polling is stopped.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:root:Попытка операции-2022-11-20 23:48:14.051912-536297652-Andrey-*5
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-31' coro=<Dispatcher._process_polling_updates() done, defined at /usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=SyntaxError('invalid syntax', ('<string>', 1, 1, '*5'))>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/usr/local/lib/python3.9/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/storm/Documents/Progerstvo/MyPython/HomeWork/Hw9/handlers.py", line 59, in callback_func
+    value = str(eval(value))
+  File "<string>", line 1
+    *5
+    ^
+SyntaxError: invalid syntax
+INFO:root:Попытка операции-2022-11-20 23:48:29.053852-536297652-Andrey-252/6
+INFO:root:Результат-2022-11-20 23:48:29.054004-536297652-Andrey-42.0
+INFO:root:Начало игры-2022-11-20 23:50:39.412567-536297652-Andrey-[1, 2, 3, 4, 5, 6, 7, 8, 9, 9, 0, '❌']
+INFO:root:Ход в игре-2022-11-20 23:50:42.073811-536297652-Andrey-[1, 2, 3, '❌', 5, 6, 7, 8, 9, 9, 1, '⭕']
+INFO:root:Ход в игре-2022-11-20 23:50:43.626060-536297652-Andrey-[1, 2, 3, '❌', '⭕', 6, 7, 8, 9, 9, 2, '❌']
+INFO:root:Ход в игре-2022-11-20 23:50:46.872588-536297652-Andrey-[1, '❌', 3, '❌', '⭕', 6, 7, 8, 9, 9, 3, '⭕']
+INFO:root:Ход в игре-2022-11-20 23:50:52.420239-536297652-Andrey-['⭕', '❌', 3, '❌', '⭕', 6, 7, 8, 9, 9, 4, '❌']
+INFO:root:Ход в игре-2022-11-20 23:50:52.772604-536297652-Andrey-['⭕', '❌', 3, '❌', '⭕', 6, 7, 8, '❌', 9, 5, '⭕']
+INFO:root:Неверный ход-2022-11-20 23:50:53.179119-536297652-Andrey-⭕)
+INFO:root:Ход в игре-2022-11-20 23:51:02.012721-536297652-Andrey-['⭕', '❌', 3, '❌', '⭕', 6, '⭕', 8, '❌', 9, 6, '❌']
+INFO:root:Ход в игре-2022-11-20 23:51:03.113307-536297652-Andrey-['⭕', '❌', '❌', '❌', '⭕', 6, '⭕', 8, '❌', 9, 7, '⭕']
+INFO:root:Ход в игре-2022-11-20 23:51:03.823413-536297652-Andrey-['⭕', '❌', '❌', '❌', '⭕', '⭕', '⭕', 8, '❌', 9, 8, '❌']
+INFO:root:Конец игры-2022-11-20 23:51:04.538256-536297652-Andrey-['⭕', '❌', '❌', '❌', '⭕', '⭕', '⭕', '❌', '❌', 0, 9, '❌']
+INFO:root:Попытка операции-2022-11-20 23:51:08.875873-536297652-Andrey-456951*6
+INFO:root:Результат-2022-11-20 23:51:08.876088-536297652-Andrey-2741706

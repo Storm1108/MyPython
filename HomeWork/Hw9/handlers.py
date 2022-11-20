@@ -1,6 +1,6 @@
 import datetime
 import logging
-
+from keyboards import calc_kb
 from config_reader import config
 from database_control import *
 from functions import *
@@ -29,39 +29,48 @@ async def crosses(message: types.Message):
     logging.info(f'Начало игры-{datetime.datetime.now()}-{u_id}-{u_name}-{game_data}')
     await bot.send_message(chat_id=message.chat.id, text=f'Выберите позицию для {game_data[11]}',
                            reply_markup=game_kb_create(game_data))
-    data_change(u_id, u_name, game_data)
+    data_change_game(u_id, u_name, game_data)
 
+
+@dp.message_handler(commands=['calc'])
+async def calculator(msg: types.Message):
+    value = ''
+    data_change_calc(msg.from_user.id, msg.from_user.first_name,value)
+    await bot.send_message(chat_id=msg.chat.id, text='Добро пожаловать в калькулятор', reply_markup=calc_kb)
 
 @dp.callback_query_handler()
 async def callback_func(query):
-    way = query.data
-    u_id = query.from_user.id
-    u_name = query.from_user.first_name
-    game_data = export(u_id)
-    game_data = make_step(game_data, way)
-    game_data = check(game_data)
-    if game_data[9] != 9 and game_data[9] != 0:
-        logging.info(f'Конец игры-{datetime.datetime.now()}-{u_id}-{u_name}-{game_data}')
-        await bot.edit_message_text(text=f'Победили {game_data[11]}! Поздравляю!!', chat_id=query.message.chat.id,
-                                    message_id=query.message.message_id,
-                                    reply_markup=game_kb_create(game_data))
-        game_data = [1, 2, 3, 4, 5, 6, 7, 8, 9, 9, 0, chr(10060)]
-    elif game_data[9] == 0:
-        await bot.edit_message_text(text=f'Победила Дружба! Ничья!', chat_id=query.message.chat.id,
-                                    message_id=query.message.message_id,
-                                    reply_markup=game_kb_create(game_data))
-        logging.info(f'Конец игры-{datetime.datetime.now()}-{u_id}-{u_name}-{game_data}')
-        game_data = [1, 2, 3, 4, 5, 6, 7, 8, 9, 9, 0, chr(10060)]
+    data = query.data
+    if data[0] == 'g':
+        await game(query, bot)
     else:
-        try:
-            await bot.edit_message_text(text=f'Выберите позицию для {game_data[11]}', chat_id=query.message.chat.id,
-                                        message_id=query.message.message_id,
-                                        reply_markup=game_kb_create(game_data))
-            logging.info(f'Ход в игре-{datetime.datetime.now()}-{u_id}-{u_name}-{game_data}')
-        except Exception:
-            logging.info(f'Неверный ход-{datetime.datetime.now()}-{u_id}-{u_name}-{game_data[11]})')
-    data_change(u_id, u_name, game_data)
-
-
+        u_id = query.from_user.id
+        u_name = query.from_user.first_name
+        value = export_calc(u_id)
+        if data == 'no':
+            pass
+        elif data == 'C':
+            value = ''
+        elif data == '<=':
+            value = value[:len(value)-1]
+        elif data == '=':
+            try:
+                logging.info(f'Попытка операции-{datetime.datetime.now()}-{u_id}-{u_name}-{value}')
+                value = str(eval(value))
+            except ZeroDivisionError:
+                value = 'Ошибка'
+            logging.info(f'Результат-{datetime.datetime.now()}-{u_id}-{u_name}-{value}')
+        else: value += data
+        if value == '':
+            await bot.edit_message_text(text=f'0', chat_id=query.message.chat.id,
+                                        message_id=query.message.message_id, reply_markup=calc_kb)
+        elif 'Ошибка' in value:
+            await bot.edit_message_text(text=f'{value}', chat_id=query.message.chat.id,
+                                        message_id=query.message.message_id, reply_markup=calc_kb)
+            value = ''
+        else:
+            await bot.edit_message_text(text=f'{value}', chat_id=query.message.chat.id,
+                                        message_id=query.message.message_id, reply_markup=calc_kb)
+        data_change_calc(u_id, u_name, value)
 async def main():
     await dp.start_polling(bot)

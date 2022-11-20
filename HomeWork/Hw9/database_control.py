@@ -21,22 +21,43 @@ def ddatabase_init():
     data_10 NUMERIC,
     data_11 NUMERIC)""")
 
+    cursor.execute("""CREATE TABLE IF NOT EXISTS datas(
+    user_id INT PRIMARY KEY,
+    user_name TEXT,
+    value TEXT)""")
+
 
 ddatabase_init()
 
 
-def export(user_id):
+def export_game(user_id):
     cursor.execute(f'SELECT data_0, data_1, data_2,data_3 ,data_4, data_5,'
                    f'data_6,data_7,data_8,data_9,data_10, data_11 FROM game_datas WHERE user_id == {user_id}')
     gamedata = list(cursor.fetchone())
-    print(gamedata)
     return gamedata
 
 
-def data_change(user_id, user_name, gamedata):
+def data_change_game(user_id, user_name, gamedata):
     gamedata = list(gamedata)
     gamedata.insert(0, user_name)
     gamedata.insert(0, user_id)
     gamedata = tuple(gamedata)
     cursor.execute(f'REPLACE INTO game_datas VALUES {gamedata}')
+    conn.commit()
+
+
+def export_calc(user_id):
+    cursor.execute(f'SELECT value FROM datas WHERE user_id == {user_id}')
+    value = ''.join(cursor.fetchone())
+    print(value)
+    return value
+
+
+def data_change_calc(user_id, user_name, value):
+    lst = []
+    lst.append(value)
+    lst.insert(0, user_name)
+    lst.insert(0, user_id)
+    lst = tuple(lst)
+    cursor.execute(f'REPLACE INTO datas VALUES {lst}')
     conn.commit()
